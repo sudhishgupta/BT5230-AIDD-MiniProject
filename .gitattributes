@@ -1,0 +1,37 @@
+# Normalise line endings for text so the repo is identical on Windows, macOS
+# and Linux, and check out native endings on each. Without this, every file
+# touched on Windows shows up as wholly modified on a Linux clone.
+* text=auto
+
+# Shell scripts must keep LF even on Windows, or they fail to run under bash.
+*.sh   text eol=lf
+# PowerShell is happiest with CRLF on Windows.
+*.ps1  text eol=crlf
+
+# Explicit text types, so git never guesses.
+*.py   text
+*.md   text
+*.csv  text
+*.json text
+*.txt  text
+*.yml  text
+*.yaml text
+
+# Binary: never line-ending-converted, never diffed as text.
+*.png     binary
+*.jpg     binary
+*.pdf     binary
+*.npz     binary
+*.npy     binary
+*.joblib  binary
+*.pt      binary
+*.gz      binary
+*.zip     binary
+
+# Generated artefacts are shown collapsed in GitHub diffs and excluded from
+# language statistics: they are results, not source, and would otherwise
+# dominate both.
+results/**      linguist-generated=true
+data/processed/** linguist-generated=true
+models_store/**   linguist-generated=true
+requirements-lock.txt linguist-generated=true

@@ -1,0 +1,2 @@
+cohort,evaluation_role,absolute_scale_comparable,n,mae,rmse,r2,spearman,spearman_p,pearson,pearson_p,spearman_ci_low,spearman_ci_high,conformal_coverage,conformal_width,cls_n,cls_n_positive,cls_prevalence,cls_roc_auc,cls_pr_auc,cls_pr_auc_lift,cls_f1,cls_mcc,cls_balanced_accuracy
+jain2024_tm,external_validation,True,43,4.6520422152978425,5.771468384414652,-0.4973538608263237,0.43725019568029416,0.0033687239382870983,0.48219727367665194,0.0010590001125044147,0.12418765899794412,0.6694517875605842,0.7441860465116279,13.718580676828196,43,0,0.0,,,,,,

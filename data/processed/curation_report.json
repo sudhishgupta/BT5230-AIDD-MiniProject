@@ -1,0 +1,541 @@
+{
+  "hic": {
+    "train": {
+      "cohort": "jain2017_hic",
+      "endpoint": "hic",
+      "source_file": "data/aggregation/jain2017biophyscial_HICRT.csv",
+      "rows_in_source": 137,
+      "source_columns": [
+        "heavy",
+        "light",
+        "HIC Retention Time (Min)a",
+        "fitness"
+      ],
+      "dropped_bad_heavy": 0,
+      "dropped_bad_light": 0,
+      "examples_bad_sequences": [],
+      "dropped_non_numeric_value": 0,
+      "examples_bad_values": [],
+      "dropped_non_finite_value": 0,
+      "rows_before_dedup": 137,
+      "rows_after_dedup": 137,
+      "duplicate_pairs_collapsed": 0,
+      "max_replicate_spread": 0.0,
+      "n_censored": 2,
+      "censoring_value": 25.0,
+      "frac_censored": 0.014598540145985401,
+      "duplicate_heavy_chains": 0,
+      "duplicate_light_chains": 1,
+      "value_summary": {
+        "n": 137,
+        "min": 8.5,
+        "q1": 9.3,
+        "median": 9.9,
+        "q3": 10.9,
+        "max": 25.0,
+        "mean": 10.328467153284672,
+        "std": 2.0971601563399087
+      },
+      "length_summary": {
+        "heavy_min": 112,
+        "heavy_median": 119.0,
+        "heavy_max": 130,
+        "light_min": 104,
+        "light_median": 107.0,
+        "light_max": 113
+      }
+    },
+    "externals": {
+      "jain2024_hic": {
+        "cohort": "jain2024_hic",
+        "endpoint": "hic",
+        "source_file": "data/aggregation/jain2024assessment_HIC.csv",
+        "rows_in_source": 43,
+        "source_columns": [
+          "heavy",
+          "light",
+          "HIC RT (min)"
+        ],
+        "dropped_bad_heavy": 0,
+        "dropped_bad_light": 0,
+        "examples_bad_sequences": [],
+        "dropped_non_numeric_value": 0,
+        "examples_bad_values": [],
+        "dropped_non_finite_value": 0,
+        "rows_before_dedup": 43,
+        "rows_after_dedup": 43,
+        "duplicate_pairs_collapsed": 0,
+        "max_replicate_spread": 0.0,
+        "n_censored": 0,
+        "censoring_value": null,
+        "frac_censored": 0.0,
+        "duplicate_heavy_chains": 0,
+        "duplicate_light_chains": 2,
+        "value_summary": {
+          "n": 43,
+          "min": 8.4,
+          "q1": 9.2,
+          "median": 9.9,
+          "q3": 11.35,
+          "max": 16.0,
+          "mean": 10.686046511627907,
+          "std": 2.057226680954916
+        },
+        "length_summary": {
+          "heavy_min": 117,
+          "heavy_median": 122.0,
+          "heavy_max": 129,
+          "light_min": 106,
+          "light_median": 107.0,
+          "light_max": 113
+        }
+      },
+      "jetha2019_hic": {
+        "cohort": "jetha2019_hic",
+        "endpoint": "hic",
+        "source_file": "data/aggregation/jetha2019homology_RT.csv",
+        "rows_in_source": 97,
+        "source_columns": [
+          "heavy",
+          "light",
+          "HIC RT (min)",
+          "fitness"
+        ],
+        "dropped_bad_heavy": 0,
+        "dropped_bad_light": 0,
+        "examples_bad_sequences": [],
+        "dropped_non_numeric_value": 0,
+        "examples_bad_values": [],
+        "dropped_non_finite_value": 0,
+        "rows_before_dedup": 97,
+        "rows_after_dedup": 97,
+        "duplicate_pairs_collapsed": 0,
+        "max_replicate_spread": 0.0,
+        "n_censored": 30,
+        "censoring_value": 30.0,
+        "frac_censored": 0.30927835051546393,
+        "duplicate_heavy_chains": 7,
+        "duplicate_light_chains": 89,
+        "value_summary": {
+          "n": 97,
+          "min": 21.27,
+          "q1": 25.28,
+          "median": 27.59,
+          "q3": 30.0,
+          "max": 30.0,
+          "mean": 27.19783505154639,
+          "std": 2.565122733744968
+        },
+        "length_summary": {
+          "heavy_min": 120,
+          "heavy_median": 120.0,
+          "heavy_max": 120,
+          "light_min": 109,
+          "light_median": 109.0,
+          "light_max": 109
+        }
+      }
+    },
+    "cross_cohort_overlap": {
+      "train_n": 137,
+      "externals": {
+        "jain2024_hic": {
+          "n_before": 43,
+          "exact_pair_overlap": 0,
+          "heavy_chain_overlap_not_exact": 0,
+          "light_chain_overlap_not_exact": 0,
+          "n_after_removing_exact": 43,
+          "removed_ids": []
+        },
+        "jetha2019_hic": {
+          "n_before": 97,
+          "exact_pair_overlap": 0,
+          "heavy_chain_overlap_not_exact": 0,
+          "light_chain_overlap_not_exact": 0,
+          "n_after_removing_exact": 97,
+          "removed_ids": []
+        }
+      }
+    },
+    "risk_label_summary": {
+      "jain2017_hic": {
+        "n": 137,
+        "n_positive": 15,
+        "prevalence": 0.10948905109489052,
+        "threshold": 11.7
+      },
+      "jain2024_hic": {
+        "n": 43,
+        "n_positive": 11,
+        "prevalence": 0.2558139534883721,
+        "threshold": 11.7
+      },
+      "jetha2019_hic": {
+        "n": 97,
+        "n_positive": 97,
+        "prevalence": 1.0,
+        "threshold": 11.7
+      }
+    }
+  },
+  "acsins": {
+    "train": {
+      "cohort": "jain2017_acsins",
+      "endpoint": "acsins",
+      "source_file": "data/aggregation/jain2017biophysical_ACSINS.csv",
+      "rows_in_source": 137,
+      "source_columns": [
+        "heavy",
+        "light",
+        "Affinity-Capture Self-Interaction Nanoparticle Spectroscopy (AC-SINS) \u2206\u03bbmax (nm) Average",
+        "fitness"
+      ],
+      "dropped_bad_heavy": 0,
+      "dropped_bad_light": 0,
+      "examples_bad_sequences": [],
+      "dropped_non_numeric_value": 0,
+      "examples_bad_values": [],
+      "dropped_non_finite_value": 0,
+      "rows_before_dedup": 137,
+      "rows_after_dedup": 137,
+      "duplicate_pairs_collapsed": 0,
+      "max_replicate_spread": 0.0,
+      "n_censored": 0,
+      "censoring_value": null,
+      "frac_censored": 0.0,
+      "duplicate_heavy_chains": 0,
+      "duplicate_light_chains": 1,
+      "value_summary": {
+        "n": 137,
+        "min": -1.1,
+        "q1": 0.0,
+        "median": 1.7,
+        "q3": 7.9,
+        "max": 29.9,
+        "mean": 6.766423357664234,
+        "std": 10.389058705678712
+      },
+      "length_summary": {
+        "heavy_min": 112,
+        "heavy_median": 119.0,
+        "heavy_max": 130,
+        "light_min": 104,
+        "light_median": 107.0,
+        "light_max": 113
+      }
+    },
+    "externals": {
+      "jain2024_acsins": {
+        "cohort": "jain2024_acsins",
+        "endpoint": "acsins",
+        "source_file": "data/aggregation/jain2024assessment_ACSINS.csv",
+        "rows_in_source": 43,
+        "source_columns": [
+          "heavy",
+          "light",
+          "AC-SINS \u2206\u03bbmax (nm)"
+        ],
+        "dropped_bad_heavy": 0,
+        "dropped_bad_light": 0,
+        "examples_bad_sequences": [],
+        "dropped_non_numeric_value": 0,
+        "examples_bad_values": [],
+        "dropped_non_finite_value": 0,
+        "rows_before_dedup": 43,
+        "rows_after_dedup": 43,
+        "duplicate_pairs_collapsed": 0,
+        "max_replicate_spread": 0.0,
+        "n_censored": 0,
+        "censoring_value": null,
+        "frac_censored": 0.0,
+        "duplicate_heavy_chains": 0,
+        "duplicate_light_chains": 2,
+        "value_summary": {
+          "n": 43,
+          "min": 0.0,
+          "q1": 4.7,
+          "median": 13.8,
+          "q3": 17.5,
+          "max": 22.2,
+          "mean": 11.083720930232557,
+          "std": 7.552134048212501
+        },
+        "length_summary": {
+          "heavy_min": 117,
+          "heavy_median": 122.0,
+          "heavy_max": 129,
+          "light_min": 106,
+          "light_median": 107.0,
+          "light_max": 113
+        }
+      }
+    },
+    "cross_cohort_overlap": {
+      "train_n": 137,
+      "externals": {
+        "jain2024_acsins": {
+          "n_before": 43,
+          "exact_pair_overlap": 0,
+          "heavy_chain_overlap_not_exact": 0,
+          "light_chain_overlap_not_exact": 0,
+          "n_after_removing_exact": 43,
+          "removed_ids": []
+        }
+      }
+    },
+    "risk_label_summary": {
+      "jain2017_acsins": {
+        "n": 137,
+        "n_positive": 15,
+        "prevalence": 0.10948905109489052,
+        "threshold": 29.6
+      },
+      "jain2024_acsins": {
+        "n": 43,
+        "n_positive": 0,
+        "prevalence": 0.0,
+        "threshold": 29.6
+      }
+    }
+  },
+  "tm": {
+    "train": {
+      "cohort": "jain2017_tm",
+      "endpoint": "tm",
+      "source_file": "data/thermostability/jain2017biophysical_Tm.csv",
+      "rows_in_source": 137,
+      "source_columns": [
+        "heavy",
+        "light",
+        "Fab Tm by DSF (\u00b0C)",
+        "fitness"
+      ],
+      "dropped_bad_heavy": 0,
+      "dropped_bad_light": 0,
+      "examples_bad_sequences": [],
+      "dropped_non_numeric_value": 0,
+      "examples_bad_values": [],
+      "dropped_non_finite_value": 0,
+      "rows_before_dedup": 137,
+      "rows_after_dedup": 137,
+      "duplicate_pairs_collapsed": 0,
+      "max_replicate_spread": 0.0,
+      "n_censored": 0,
+      "censoring_value": null,
+      "frac_censored": 0.0,
+      "duplicate_heavy_chains": 0,
+      "duplicate_light_chains": 1,
+      "value_summary": {
+        "n": 137,
+        "min": 59.5,
+        "q1": 67.0,
+        "median": 71.0,
+        "q3": 75.5,
+        "max": 91.5,
+        "mean": 71.28467153284672,
+        "std": 5.861387741107913
+      },
+      "length_summary": {
+        "heavy_min": 112,
+        "heavy_median": 119.0,
+        "heavy_max": 130,
+        "light_min": 104,
+        "light_median": 107.0,
+        "light_max": 113
+      }
+    },
+    "externals": {
+      "jain2024_tm": {
+        "cohort": "jain2024_tm",
+        "endpoint": "tm",
+        "source_file": "data/thermostability/jain2024assessment_Tm.csv",
+        "rows_in_source": 43,
+        "source_columns": [
+          "heavy",
+          "light",
+          "Fab Tm by DSF (\u00b0C)"
+        ],
+        "dropped_bad_heavy": 0,
+        "dropped_bad_light": 0,
+        "examples_bad_sequences": [],
+        "dropped_non_numeric_value": 0,
+        "examples_bad_values": [],
+        "dropped_non_finite_value": 0,
+        "rows_before_dedup": 43,
+        "rows_after_dedup": 43,
+        "duplicate_pairs_collapsed": 0,
+        "max_replicate_spread": 0.0,
+        "n_censored": 0,
+        "censoring_value": null,
+        "frac_censored": 0.0,
+        "duplicate_heavy_chains": 0,
+        "duplicate_light_chains": 2,
+        "value_summary": {
+          "n": 43,
+          "min": 65.5,
+          "q1": 72.75,
+          "median": 75.5,
+          "q3": 79.25,
+          "max": 85.0,
+          "mean": 76.30232558139535,
+          "std": 4.7723653101347585
+        },
+        "length_summary": {
+          "heavy_min": 117,
+          "heavy_median": 122.0,
+          "heavy_max": 129,
+          "light_min": 106,
+          "light_median": 107.0,
+          "light_max": 113
+        }
+      }
+    },
+    "cross_cohort_overlap": {
+      "train_n": 137,
+      "externals": {
+        "jain2024_tm": {
+          "n_before": 43,
+          "exact_pair_overlap": 0,
+          "heavy_chain_overlap_not_exact": 0,
+          "light_chain_overlap_not_exact": 0,
+          "n_after_removing_exact": 43,
+          "removed_ids": []
+        }
+      }
+    },
+    "risk_label_summary": {
+      "jain2017_tm": {
+        "n": 137,
+        "n_positive": 14,
+        "prevalence": 0.10218978102189781,
+        "threshold": 64.3
+      },
+      "jain2024_tm": {
+        "n": 43,
+        "n_positive": 0,
+        "prevalence": 0.0,
+        "threshold": 64.3
+      }
+    }
+  },
+  "psr": {
+    "train": {
+      "cohort": "jain2017_psr",
+      "endpoint": "psr",
+      "source_file": "data/polyreactivity/jain2017biophysical_PSR.csv",
+      "rows_in_source": 137,
+      "source_columns": [
+        "heavy",
+        "light",
+        "Poly-Specificity Reagent (PSR) SMP Score (0-1)",
+        "fitness"
+      ],
+      "dropped_bad_heavy": 0,
+      "dropped_bad_light": 0,
+      "examples_bad_sequences": [],
+      "dropped_non_numeric_value": 0,
+      "examples_bad_values": [],
+      "dropped_non_finite_value": 0,
+      "rows_before_dedup": 137,
+      "rows_after_dedup": 137,
+      "duplicate_pairs_collapsed": 0,
+      "max_replicate_spread": 0.0,
+      "n_censored": 0,
+      "censoring_value": null,
+      "frac_censored": 0.0,
+      "duplicate_heavy_chains": 0,
+      "duplicate_light_chains": 1,
+      "value_summary": {
+        "n": 137,
+        "min": 0.0,
+        "q1": 0.0,
+        "median": 0.0,
+        "q3": 0.23,
+        "max": 0.81,
+        "mean": 0.14510948905109491,
+        "std": 0.20422060155741464
+      },
+      "length_summary": {
+        "heavy_min": 112,
+        "heavy_median": 119.0,
+        "heavy_max": 130,
+        "light_min": 104,
+        "light_median": 107.0,
+        "light_max": 113
+      }
+    },
+    "externals": {
+      "jain2024_psr": {
+        "cohort": "jain2024_psr",
+        "endpoint": "psr",
+        "source_file": "data/polyreactivity/jain2024assessment_PSR.csv",
+        "rows_in_source": 43,
+        "source_columns": [
+          "heavy",
+          "light",
+          "PSR"
+        ],
+        "dropped_bad_heavy": 0,
+        "dropped_bad_light": 0,
+        "examples_bad_sequences": [],
+        "dropped_non_numeric_value": 0,
+        "examples_bad_values": [],
+        "dropped_non_finite_value": 0,
+        "rows_before_dedup": 43,
+        "rows_after_dedup": 43,
+        "duplicate_pairs_collapsed": 0,
+        "max_replicate_spread": 0.0,
+        "n_censored": 0,
+        "censoring_value": null,
+        "frac_censored": 0.0,
+        "duplicate_heavy_chains": 0,
+        "duplicate_light_chains": 2,
+        "value_summary": {
+          "n": 43,
+          "min": 0.0,
+          "q1": 0.04,
+          "median": 0.5,
+          "q3": 0.795,
+          "max": 0.92,
+          "mean": 0.4406976744186047,
+          "std": 0.34473174766999015
+        },
+        "length_summary": {
+          "heavy_min": 117,
+          "heavy_median": 122.0,
+          "heavy_max": 129,
+          "light_min": 106,
+          "light_median": 107.0,
+          "light_max": 113
+        }
+      }
+    },
+    "cross_cohort_overlap": {
+      "train_n": 137,
+      "externals": {
+        "jain2024_psr": {
+          "n_before": 43,
+          "exact_pair_overlap": 0,
+          "heavy_chain_overlap_not_exact": 0,
+          "light_chain_overlap_not_exact": 0,
+          "n_after_removing_exact": 43,
+          "removed_ids": []
+        }
+      }
+    },
+    "risk_label_summary": {
+      "jain2017_psr": {
+        "n": 137,
+        "n_positive": 14,
+        "prevalence": 0.10218978102189781,
+        "threshold": 0.4400000000000003
+      },
+      "jain2024_psr": {
+        "n": 43,
+        "n_positive": 22,
+        "prevalence": 0.5116279069767442,
+        "threshold": 0.4400000000000003
+      }
+    }
+  }
+}

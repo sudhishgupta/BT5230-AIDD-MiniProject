@@ -1,0 +1,3 @@
+cohort,n,min,q1,median,q3,max,mean,std,n_censored,frac_censored,n_risk_positive
+jain2017_acsins,137,-1.1,0.0,1.7,7.9,29.9,6.766423357664234,10.389058705678712,0,0.0,15
+jain2024_acsins,43,0.0,4.7,13.8,17.5,22.2,11.083720930232557,7.552134048212501,0,0.0,0

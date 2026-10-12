@@ -1,0 +1,1894 @@
+{
+  "hic": {
+    "residuals": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_hic_residuals.png",
+      "mae_overall": 0.9717075993466051,
+      "mae_risk_positive": 3.440768145374562,
+      "mae_risk_negative": 0.6681345813923482,
+      "n_risk_positive": 15,
+      "error_vs_value_spearman": -0.007173373253890654,
+      "worst_predictions": [
+        {
+          "antibody_id": "jain2017_hic_0078",
+          "value": 25.0,
+          "oof_prediction": 9.933076447324112,
+          "residual": 15.066923552675888,
+          "abs_error": 15.066923552675888,
+          "risk_label": 1,
+          "is_censored": true,
+          "heavy_len": 123,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*12_IGHV1-69*13_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_hic_0121",
+          "value": 25.0,
+          "oof_prediction": 11.306044250535168,
+          "residual": 13.693955749464832,
+          "abs_error": 13.693955749464832,
+          "risk_label": 1,
+          "is_censored": true,
+          "heavy_len": 123,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*12_IGHV1-69*13_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_hic_0021",
+          "value": 13.4,
+          "oof_prediction": 10.04443707555081,
+          "residual": 3.35556292444919,
+          "abs_error": 3.35556292444919,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 118,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*04"
+        },
+        {
+          "antibody_id": "jain2017_hic_0123",
+          "value": 12.9,
+          "oof_prediction": 10.363729101393616,
+          "residual": 2.5362708986063858,
+          "abs_error": 2.5362708986063858,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 122,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*11_IGHV1-69*12_IGHV1-69*13_IGHV1-69*15_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_hic_0072",
+          "value": 13.7,
+          "oof_prediction": 11.168941993245754,
+          "residual": 2.531058006754245,
+          "abs_error": 2.531058006754245,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV4-30-4",
+          "heavy_v_gene": "IGHV4-30-4*09_IGHV4-31*02_IGHV4-31*03_IGHV4-31*13"
+        },
+        {
+          "antibody_id": "jain2017_hic_0032",
+          "value": 8.5,
+          "oof_prediction": 10.849810793406675,
+          "residual": -2.349810793406675,
+          "abs_error": 2.349810793406675,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 114,
+          "heavy_v_family": "IGHV3-74",
+          "heavy_v_gene": "IGHV3-74*01_IGHV3-74*02"
+        },
+        {
+          "antibody_id": "jain2017_hic_0044",
+          "value": 9.5,
+          "oof_prediction": 11.837972626829725,
+          "residual": -2.3379726268297247,
+          "abs_error": 2.3379726268297247,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV3-30",
+          "heavy_v_gene": "IGHV3-30*03_IGHV3-30*06_IGHV3-30*09_IGHV3-30*12_IGHV3-30*19_IGHV3-33*05"
+        },
+        {
+          "antibody_id": "jain2017_hic_0135",
+          "value": 12.4,
+          "oof_prediction": 10.203933522617945,
+          "residual": 2.196066477382056,
+          "abs_error": 2.196066477382056,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 118,
+          "heavy_v_family": "IGHV2-70",
+          "heavy_v_gene": "IGHV2-70*01_IGHV2-70*13_IGHV2-70*15_IGHV2-70*17_IGHV2-70*23"
+        },
+        {
+          "antibody_id": "jain2017_hic_0065",
+          "value": 12.2,
+          "oof_prediction": 10.09416724672317,
+          "residual": 2.105832753276829,
+          "abs_error": 2.105832753276829,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 127,
+          "heavy_v_family": "IGHV4-38-2",
+          "heavy_v_gene": "IGHV4-38-2*01_IGHV4-38-2*03"
+        },
+        {
+          "antibody_id": "jain2017_hic_0055",
+          "value": 12.3,
+          "oof_prediction": 10.230750774069094,
+          "residual": 2.069249225930907,
+          "abs_error": 2.069249225930907,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 116,
+          "heavy_v_family": "IGHV1-3",
+          "heavy_v_gene": "IGHV1-3*01_IGHV1-45*01_IGHV1-45*02_IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_hic_0030",
+          "value": 9.2,
+          "oof_prediction": 11.123463546400757,
+          "residual": -1.923463546400756,
+          "abs_error": 1.923463546400756,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV3-66",
+          "heavy_v_gene": "IGHV3-66*01_IGHV3-66*02_IGHV3-66*04"
+        },
+        {
+          "antibody_id": "jain2017_hic_0081",
+          "value": 9.2,
+          "oof_prediction": 10.984380396344765,
+          "residual": -1.7843803963447638,
+          "abs_error": 1.7843803963447638,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 118,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*02_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_hic_0062",
+          "value": 12.4,
+          "oof_prediction": 10.780439644248313,
+          "residual": 1.6195603557516876,
+          "abs_error": 1.6195603557516876,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 124,
+          "heavy_v_family": "IGHV3-30-5",
+          "heavy_v_gene": "IGHV3-30-5*03_IGHV3-33*01_IGHV3-33*04_IGHV3-33*08"
+        },
+        {
+          "antibody_id": "jain2017_hic_0107",
+          "value": 11.8,
+          "oof_prediction": 10.209511505549084,
+          "residual": 1.590488494450918,
+          "abs_error": 1.590488494450918,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 121,
+          "heavy_v_family": "IGHV1-2",
+          "heavy_v_gene": "IGHV1-2*02"
+        },
+        {
+          "antibody_id": "jain2017_hic_0067",
+          "value": 12.6,
+          "oof_prediction": 11.031595565463544,
+          "residual": 1.5684044345364558,
+          "abs_error": 1.5684044345364558,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV4-59",
+          "heavy_v_gene": "IGHV4-59*01_IGHV4-59*13_IGHV4-61*12"
+        }
+      ],
+      "tail_error_ratio": 5.149812988581177
+    },
+    "germline": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_hic_by_germline.png",
+      "n_families_tested": 10,
+      "n_biased_fdr05": 0,
+      "biased_families": [],
+      "table": [
+        {
+          "family": "IGHV1-69",
+          "n": 10,
+          "mean_residual": 3.3486622433140347,
+          "mean_residual_others": -0.10111571321704048,
+          "mean_measured": 13.89,
+          "mean_measured_others": 10.048031496062992,
+          "mae": 3.4230243845508648,
+          "p_residual": 0.005500810490509616,
+          "p_measured": 0.00033667876137697235,
+          "p_residual_bh": 0.05500810490509615,
+          "p_measured_bh": 0.0033667876137697234,
+          "biased_fdr05": false,
+          "extreme_fdr05": true
+        },
+        {
+          "family": "IGHV1-18",
+          "n": 5,
+          "mean_residual": 0.3567196752730773,
+          "mean_residual_others": 0.14288885210765775,
+          "mean_measured": 10.12,
+          "mean_measured_others": 10.336363636363638,
+          "mae": 0.5563914676329353,
+          "p_residual": 0.18710119162524821,
+          "p_measured": 0.7564682754805254,
+          "p_residual_bh": 0.47385453148306944,
+          "p_measured_bh": 0.9455853443506568,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-2",
+          "n": 7,
+          "mean_residual": 0.23334578422292673,
+          "mean_residual_others": 0.14624235665396706,
+          "mean_measured": 10.285714285714286,
+          "mean_measured_others": 10.330769230769231,
+          "mae": 0.582345673423301,
+          "p_residual": 0.30481540227849707,
+          "p_measured": 0.4904340039517624,
+          "p_residual_bh": 0.6096308045569941,
+          "p_measured_bh": 0.8803444847037042,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-3",
+          "n": 10,
+          "mean_residual": 0.1277089723852935,
+          "mean_residual_others": 0.1525026545726242,
+          "mean_measured": 10.360000000000001,
+          "mean_measured_others": 10.325984251968503,
+          "mae": 0.6994016923062378,
+          "p_residual": 0.6639844126927468,
+          "p_measured": 0.4147313539790223,
+          "p_residual_bh": 0.9224002206471273,
+          "p_measured_bh": 0.8803444847037042,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30-5",
+          "n": 6,
+          "mean_residual": 0.050620931160047435,
+          "mean_residual_others": 0.15527634555431996,
+          "mean_measured": 10.233333333333333,
+          "mean_measured_others": 10.332824427480915,
+          "mae": 0.8360853382335268,
+          "p_residual": 0.9224002206471273,
+          "p_measured": 0.9496462221330889,
+          "p_residual_bh": 0.9224002206471273,
+          "p_measured_bh": 0.9496462221330889,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-23",
+          "n": 21,
+          "mean_residual": -0.028908264402305255,
+          "mean_residual_others": 0.18320690006055707,
+          "mean_measured": 10.061904761904763,
+          "mean_measured_others": 10.376724137931035,
+          "mae": 0.8116153701868579,
+          "p_residual": 0.8460379874785935,
+          "p_measured": 0.5282066908222225,
+          "p_residual_bh": 0.9224002206471273,
+          "p_measured_bh": 0.8803444847037042,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-21",
+          "n": 5,
+          "mean_residual": -0.03470699864488546,
+          "mean_residual_others": 0.1577156200590957,
+          "mean_measured": 9.8,
+          "mean_measured_others": 10.348484848484848,
+          "mae": 0.3494911026435954,
+          "p_residual": 0.8108564916860335,
+          "p_measured": 0.6295134327632091,
+          "p_residual_bh": 0.9224002206471273,
+          "p_measured_bh": 0.8993049039474417,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30",
+          "n": 5,
+          "mean_residual": -0.20294546753373943,
+          "mean_residual_others": 0.16408828933518868,
+          "mean_measured": 10.14,
+          "mean_measured_others": 10.335606060606063,
+          "mae": 1.233683345440964,
+          "p_residual": 0.8893900360166236,
+          "p_measured": 0.9496287644548144,
+          "p_residual_bh": 0.9224002206471273,
+          "p_measured_bh": 0.9496462221330889,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-46",
+          "n": 16,
+          "mean_residual": -0.3564354577198944,
+          "mean_residual_others": 0.21775119155450015,
+          "mean_measured": 9.84375,
+          "mean_measured_others": 10.392561983471074,
+          "mae": 0.7424475559156457,
+          "p_residual": 0.15440153332262727,
+          "p_measured": 0.4113438033007083,
+          "p_residual_bh": 0.47385453148306944,
+          "p_measured_bh": 0.8803444847037042,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-66",
+          "n": 7,
+          "mean_residual": -0.5877132000696681,
+          "mean_residual_others": 0.19045322503895298,
+          "mean_measured": 9.571428571428571,
+          "mean_measured_others": 10.36923076923077,
+          "mae": 0.6635004032681808,
+          "p_residual": 0.18954181259322778,
+          "p_measured": 0.25040571135573475,
+          "p_residual_bh": 0.47385453148306944,
+          "p_measured_bh": 0.8803444847037042,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        }
+      ]
+    },
+    "applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_hic_applicability.png",
+      "bands": [
+        {
+          "band": "least similar",
+          "n": 15,
+          "mean_identity": 0.5722866666666666,
+          "mae": 1.2386533702649822,
+          "interval_coverage": 0.6
+        },
+        {
+          "band": "middle",
+          "n": 14,
+          "mean_identity": 0.6255571428571428,
+          "mae": 1.8585192324334674,
+          "interval_coverage": 0.42857142857142855
+        },
+        {
+          "band": "most similar",
+          "n": 14,
+          "mean_identity": 0.6687000000000001,
+          "mae": 1.1397254847179314,
+          "interval_coverage": 0.6428571428571429
+        }
+      ],
+      "identity_vs_error_spearman": 0.09960705426219647,
+      "identity_vs_error_p": 0.5250999602730034
+    },
+    "ablation": [
+      {
+        "ablation": "none (full descriptor set)",
+        "n_features": 388,
+        "n_removed": 0,
+        "spearman": 0.4825564615178298,
+        "delta_vs_full": 0.0
+      },
+      {
+        "ablation": "drop composition",
+        "n_features": 247,
+        "n_removed": 141,
+        "spearman": 0.5253234963957619,
+        "delta_vs_full": 0.0427670348779321
+      },
+      {
+        "ablation": "drop hydropathy",
+        "n_features": 334,
+        "n_removed": 54,
+        "spearman": 0.4604969377126524,
+        "delta_vs_full": -0.02205952380517745
+      },
+      {
+        "ablation": "drop charge_and_pI",
+        "n_features": 356,
+        "n_removed": 32,
+        "spearman": 0.46964345562785087,
+        "delta_vs_full": -0.012913005889978957
+      },
+      {
+        "ablation": "drop cdr_restricted",
+        "n_features": 128,
+        "n_removed": 260,
+        "spearman": 0.4312547003238267,
+        "delta_vs_full": -0.05130176119400315
+      },
+      {
+        "ablation": "drop liability_motifs",
+        "n_features": 252,
+        "n_removed": 136,
+        "spearman": 0.4603101311174991,
+        "delta_vs_full": -0.02224633040033075
+      },
+      {
+        "ablation": "drop size_and_stability",
+        "n_features": 367,
+        "n_removed": 21,
+        "spearman": 0.4578676348858683,
+        "delta_vs_full": -0.024688826631961536
+      },
+      {
+        "ablation": "only composition",
+        "n_features": 141,
+        "n_removed": 247,
+        "spearman": 0.356539067509784,
+        "delta_vs_full": -0.12601739400804585
+      },
+      {
+        "ablation": "only hydropathy",
+        "n_features": 54,
+        "n_removed": 334,
+        "spearman": 0.4232873990405341,
+        "delta_vs_full": -0.05926906247729574
+      },
+      {
+        "ablation": "only charge_and_pI",
+        "n_features": 32,
+        "n_removed": 356,
+        "spearman": 0.13640617578101447,
+        "delta_vs_full": -0.3461502857368154
+      },
+      {
+        "ablation": "only cdr_restricted",
+        "n_features": 260,
+        "n_removed": 128,
+        "spearman": 0.49369771586491373,
+        "delta_vs_full": 0.011141254347083906
+      },
+      {
+        "ablation": "only liability_motifs",
+        "n_features": 136,
+        "n_removed": 252,
+        "spearman": 0.21450534304977323,
+        "delta_vs_full": -0.2680511184680566
+      },
+      {
+        "ablation": "only size_and_stability",
+        "n_features": 21,
+        "n_removed": 367,
+        "spearman": 0.3083523062899638,
+        "delta_vs_full": -0.17420415522786603
+      }
+    ],
+    "ablation_figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\ablation_hic.png"
+  },
+  "acsins": {
+    "residuals": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_acsins_residuals.png",
+      "mae_overall": 7.287850967939055,
+      "mae_risk_positive": 20.417970995235702,
+      "mae_risk_negative": 5.673491948189467,
+      "n_risk_positive": 15,
+      "error_vs_value_spearman": 0.3974440329704944,
+      "worst_predictions": [
+        {
+          "antibody_id": "jain2017_acsins_0028",
+          "value": 29.6,
+          "oof_prediction": -1.7335051984295289,
+          "residual": 31.33350519842953,
+          "abs_error": 31.33350519842953,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 121,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*04"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0058",
+          "value": 29.6,
+          "oof_prediction": 1.1922975536544618,
+          "residual": 28.40770244634554,
+          "abs_error": 28.40770244634554,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 121,
+          "heavy_v_family": "IGHV3-20",
+          "heavy_v_gene": "IGHV3-20*04"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0112",
+          "value": 27.7,
+          "oof_prediction": 1.9558930278525184,
+          "residual": 25.74410697214748,
+          "abs_error": 25.74410697214748,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 113,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0002",
+          "value": 29.6,
+          "oof_prediction": 4.32235263219123,
+          "residual": 25.27764736780877,
+          "abs_error": 25.27764736780877,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV3-73",
+          "heavy_v_gene": "IGHV3-73*01_IGHV3-73*02"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0083",
+          "value": 28.8,
+          "oof_prediction": 5.572191945205884,
+          "residual": 23.22780805479412,
+          "abs_error": 23.22780805479412,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 117,
+          "heavy_v_family": "IGHV1-3",
+          "heavy_v_gene": "IGHV1-3*01_IGHV1-3*05"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0072",
+          "value": 28.9,
+          "oof_prediction": 6.382705580157668,
+          "residual": 22.51729441984233,
+          "abs_error": 22.51729441984233,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV4-30-4",
+          "heavy_v_gene": "IGHV4-30-4*09_IGHV4-31*02_IGHV4-31*03_IGHV4-31*13"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0023",
+          "value": 29.6,
+          "oof_prediction": 7.250160789935996,
+          "residual": 22.349839210064005,
+          "abs_error": 22.349839210064005,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV3-7",
+          "heavy_v_gene": "IGHV3-7*01_IGHV3-7*02_IGHV3-7*03_IGHV3-7*04_IGHV3-7*05"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0105",
+          "value": 29.6,
+          "oof_prediction": 7.961342258418119,
+          "residual": 21.63865774158188,
+          "abs_error": 21.63865774158188,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 115,
+          "heavy_v_family": "IGHV1-2",
+          "heavy_v_gene": "IGHV1-2*06"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0011",
+          "value": 29.9,
+          "oof_prediction": 8.557350672010745,
+          "residual": 21.342649327989253,
+          "abs_error": 21.342649327989253,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0009",
+          "value": 29.6,
+          "oof_prediction": 9.105027989979163,
+          "residual": 20.49497201002084,
+          "abs_error": 20.49497201002084,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 125,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*01_IGHV3-23D*01"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0084",
+          "value": 2.0,
+          "oof_prediction": 21.372651385326776,
+          "residual": -19.372651385326776,
+          "abs_error": 19.372651385326776,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 123,
+          "heavy_v_family": "IGHV4-34",
+          "heavy_v_gene": "IGHV4-34*01_IGHV4-34*02"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0093",
+          "value": 29.6,
+          "oof_prediction": 11.159210099938576,
+          "residual": 18.440789900061425,
+          "abs_error": 18.440789900061425,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 125,
+          "heavy_v_family": "IGHV3-30-5",
+          "heavy_v_gene": "IGHV3-30-5*03_IGHV3-33*01_IGHV3-33*04_IGHV3-33*08"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0054",
+          "value": 29.6,
+          "oof_prediction": 11.3617270389362,
+          "residual": 18.2382729610638,
+          "abs_error": 18.2382729610638,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 130,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*06_IGHV1-69*14"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0121",
+          "value": 21.0,
+          "oof_prediction": 2.827019739211896,
+          "residual": 18.172980260788105,
+          "abs_error": 18.172980260788105,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 123,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*12_IGHV1-69*13_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_acsins_0092",
+          "value": 29.6,
+          "oof_prediction": 11.456586348804835,
+          "residual": 18.143413651195164,
+          "abs_error": 18.143413651195164,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 115,
+          "heavy_v_family": "IGHV3-30",
+          "heavy_v_gene": "IGHV3-30*02_IGHV3-30-5*02"
+        }
+      ],
+      "tail_error_ratio": 3.598836692057264
+    },
+    "germline": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_acsins_by_germline.png",
+      "n_families_tested": 10,
+      "n_biased_fdr05": 0,
+      "biased_families": [],
+      "table": [
+        {
+          "family": "IGHV3-30",
+          "n": 5,
+          "mean_residual": 4.6314910729490695,
+          "mean_residual_others": -0.25187305509979024,
+          "mean_measured": 14.74,
+          "mean_measured_others": 6.46439393939394,
+          "mae": 6.937809533663258,
+          "p_residual": 0.13443462564200875,
+          "p_measured": 0.1265901758987418,
+          "p_residual_bh": 0.6721731282100437,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-3",
+          "n": 10,
+          "mean_residual": 3.5485853524979625,
+          "mean_residual_others": -0.35886331837328056,
+          "mean_measured": 6.600000000000001,
+          "mean_measured_others": 6.7795275590551185,
+          "mae": 6.081044255132063,
+          "p_residual": 0.07060505277764324,
+          "p_measured": 0.8327694472301143,
+          "p_residual_bh": 0.6721731282100437,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-2",
+          "n": 7,
+          "mean_residual": 2.247934964539943,
+          "mean_residual_others": -0.19865640507851204,
+          "mean_measured": 10.114285714285714,
+          "mean_measured_others": 6.586153846153847,
+          "mae": 8.119244402437891,
+          "p_residual": 0.5948477223780719,
+          "p_measured": 0.3160201482457702,
+          "p_residual_bh": 0.8347302181786737,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-46",
+          "n": 16,
+          "mean_residual": 1.800934070686464,
+          "mean_residual_others": -0.32152671933397015,
+          "mean_measured": 7.81875,
+          "mean_measured_others": 6.627272727272726,
+          "mae": 8.312214319623143,
+          "p_residual": 0.40406269617472157,
+          "p_measured": 0.9866229034089351,
+          "p_residual_bh": 0.7987784270915371,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30-5",
+          "n": 6,
+          "mean_residual": 0.9028365509315263,
+          "mean_residual_others": -0.11837257415279498,
+          "mean_measured": 10.200000000000001,
+          "mean_measured_others": 6.6091603053435115,
+          "mae": 8.532767847842203,
+          "p_residual": 0.955028650162616,
+          "p_measured": 0.7204423492288308,
+          "p_residual_bh": 0.955028650162616,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-69",
+          "n": 10,
+          "mean_residual": -0.8113741045622858,
+          "mean_residual_others": -0.01555942411656783,
+          "mean_measured": 7.409999999999999,
+          "mean_measured_others": 6.715748031496063,
+          "mae": 8.093624748932667,
+          "p_residual": 0.4792670562549223,
+          "p_measured": 0.7974154907994389,
+          "p_residual_bh": 0.7987784270915371,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-23",
+          "n": 21,
+          "mean_residual": -1.1274837181874542,
+          "mean_residual_others": 0.11713250149577208,
+          "mean_measured": 7.119047619047619,
+          "mean_measured_others": 6.702586206896551,
+          "mae": 7.465083221466536,
+          "p_residual": 0.42509352703694614,
+          "p_measured": 0.3224203812110842,
+          "p_residual_bh": 0.7987784270915371,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-21",
+          "n": 5,
+          "mean_residual": -1.6360550231999826,
+          "mean_residual_others": -0.014466006003235292,
+          "mean_measured": 6.62,
+          "mean_measured_others": 6.771969696969697,
+          "mae": 8.057877223940844,
+          "p_residual": 0.6677841745429389,
+          "p_measured": 0.9267846660085172,
+          "p_residual_bh": 0.8347302181786737,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-66",
+          "n": 7,
+          "mean_residual": -2.0032789083515605,
+          "mean_residual_others": 0.030255111154107193,
+          "mean_measured": 3.5285714285714285,
+          "mean_measured_others": 6.940769230769232,
+          "mae": 3.8647684006212413,
+          "p_residual": 0.8670667355530585,
+          "p_measured": 0.7468385308963712,
+          "p_residual_bh": 0.955028650162616,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-18",
+          "n": 5,
+          "mean_residual": -5.2715952270358075,
+          "mean_residual_others": 0.12324385020266722,
+          "mean_measured": 4.220000000000001,
+          "mean_measured_others": 6.862878787878788,
+          "mae": 6.384242547528018,
+          "p_residual": 0.20743697926033292,
+          "p_measured": 0.5016137973880317,
+          "p_residual_bh": 0.6914565975344431,
+          "p_measured_bh": 0.9866229034089351,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        }
+      ]
+    },
+    "applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_acsins_applicability.png",
+      "bands": [
+        {
+          "band": "least similar",
+          "n": 15,
+          "mean_identity": 0.5722866666666666,
+          "mae": 6.5026444320976555,
+          "interval_coverage": 0.8
+        },
+        {
+          "band": "middle",
+          "n": 14,
+          "mean_identity": 0.6255571428571428,
+          "mae": 7.091625078474786,
+          "interval_coverage": 0.7142857142857143
+        },
+        {
+          "band": "most similar",
+          "n": 14,
+          "mean_identity": 0.6687000000000001,
+          "mae": 5.6662687635384446,
+          "interval_coverage": 0.9285714285714286
+        }
+      ],
+      "identity_vs_error_spearman": -0.17223404906187084,
+      "identity_vs_error_p": 0.2694144622629874
+    },
+    "ablation": [
+      {
+        "ablation": "none (full descriptor set)",
+        "n_features": 388,
+        "n_removed": 0,
+        "spearman": 0.2905731539286163,
+        "delta_vs_full": 0.0
+      },
+      {
+        "ablation": "drop composition",
+        "n_features": 247,
+        "n_removed": 141,
+        "spearman": 0.263863607224054,
+        "delta_vs_full": -0.026709546704562326
+      },
+      {
+        "ablation": "drop hydropathy",
+        "n_features": 334,
+        "n_removed": 54,
+        "spearman": 0.31407419239991513,
+        "delta_vs_full": 0.023501038471298807
+      },
+      {
+        "ablation": "drop charge_and_pI",
+        "n_features": 356,
+        "n_removed": 32,
+        "spearman": 0.2478023847870912,
+        "delta_vs_full": -0.04277076914152511
+      },
+      {
+        "ablation": "drop cdr_restricted",
+        "n_features": 128,
+        "n_removed": 260,
+        "spearman": 0.29833055156391586,
+        "delta_vs_full": 0.007757397635299534
+      },
+      {
+        "ablation": "drop liability_motifs",
+        "n_features": 252,
+        "n_removed": 136,
+        "spearman": 0.32977813553579394,
+        "delta_vs_full": 0.039204981607177614
+      },
+      {
+        "ablation": "drop size_and_stability",
+        "n_features": 367,
+        "n_removed": 21,
+        "spearman": 0.28613868730928044,
+        "delta_vs_full": -0.004434466619335886
+      },
+      {
+        "ablation": "only composition",
+        "n_features": 141,
+        "n_removed": 247,
+        "spearman": 0.3009505997718647,
+        "delta_vs_full": 0.0103774458432484
+      },
+      {
+        "ablation": "only hydropathy",
+        "n_features": 54,
+        "n_removed": 334,
+        "spearman": -0.011736508282665715,
+        "delta_vs_full": -0.302309662211282
+      },
+      {
+        "ablation": "only charge_and_pI",
+        "n_features": 32,
+        "n_removed": 356,
+        "spearman": 0.34866723531663013,
+        "delta_vs_full": 0.05809408138801381
+      },
+      {
+        "ablation": "only cdr_restricted",
+        "n_features": 260,
+        "n_removed": 128,
+        "spearman": 0.2305084674364996,
+        "delta_vs_full": -0.060064686492116715
+      },
+      {
+        "ablation": "only liability_motifs",
+        "n_features": 136,
+        "n_removed": 252,
+        "spearman": -0.03012121375608935,
+        "delta_vs_full": -0.32069436768470566
+      },
+      {
+        "ablation": "only size_and_stability",
+        "n_features": 21,
+        "n_removed": 367,
+        "spearman": 0.12662398759004148,
+        "delta_vs_full": -0.16394916633857484
+      }
+    ],
+    "ablation_figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\ablation_acsins.png"
+  },
+  "tm": {
+    "residuals": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_tm_residuals.png",
+      "mae_overall": 4.073528452005408,
+      "mae_risk_positive": 6.788583535877744,
+      "mae_risk_negative": 3.7644977920524596,
+      "n_risk_positive": 14,
+      "error_vs_value_spearman": -0.0029300492478037733,
+      "worst_predictions": [
+        {
+          "antibody_id": "jain2017_tm_0075",
+          "value": 91.5,
+          "oof_prediction": 77.96956708398366,
+          "residual": 13.530432916016338,
+          "abs_error": 13.530432916016338,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV4-59",
+          "heavy_v_gene": "IGHV4-59*11"
+        },
+        {
+          "antibody_id": "jain2017_tm_0133",
+          "value": 86.0,
+          "oof_prediction": 73.10405898056815,
+          "residual": 12.895941019431843,
+          "abs_error": 12.895941019431843,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV2-70",
+          "heavy_v_gene": "IGHV2-70*01_IGHV2-70*13_IGHV2-70*15_IGHV2-70*17_IGHV2-70*19_IGHV2-70*23"
+        },
+        {
+          "antibody_id": "jain2017_tm_0067",
+          "value": 79.0,
+          "oof_prediction": 68.37997697484768,
+          "residual": 10.62002302515232,
+          "abs_error": 10.62002302515232,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV4-59",
+          "heavy_v_gene": "IGHV4-59*01_IGHV4-59*13_IGHV4-61*12"
+        },
+        {
+          "antibody_id": "jain2017_tm_0025",
+          "value": 64.5,
+          "oof_prediction": 74.6875677057096,
+          "residual": -10.187567705709595,
+          "abs_error": 10.187567705709595,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*03_IGHV3-48*03_IGHV3-7*01_IGHV3-7*02_IGHV3-7*03_IGHV3-7*04_IGHV3-7*05"
+        },
+        {
+          "antibody_id": "jain2017_tm_0046",
+          "value": 83.0,
+          "oof_prediction": 72.90951029359665,
+          "residual": 10.090489706403346,
+          "abs_error": 10.090489706403346,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 121,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_tm_0061",
+          "value": 62.5,
+          "oof_prediction": 72.26399035528283,
+          "residual": -9.763990355282829,
+          "abs_error": 9.763990355282829,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 127,
+          "heavy_v_family": "IGHV4-39",
+          "heavy_v_gene": "IGHV4-39*01_IGHV4-39*07"
+        },
+        {
+          "antibody_id": "jain2017_tm_0035",
+          "value": 63.5,
+          "oof_prediction": 73.2408875721645,
+          "residual": -9.740887572164496,
+          "abs_error": 9.740887572164496,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 123,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*04"
+        },
+        {
+          "antibody_id": "jain2017_tm_0011",
+          "value": 59.5,
+          "oof_prediction": 68.98423239943746,
+          "residual": -9.48423239943746,
+          "abs_error": 9.48423239943746,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_tm_0114",
+          "value": 61.0,
+          "oof_prediction": 70.4615641738664,
+          "residual": -9.461564173866408,
+          "abs_error": 9.461564173866408,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 116,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*04"
+        },
+        {
+          "antibody_id": "jain2017_tm_0030",
+          "value": 79.0,
+          "oof_prediction": 69.56388642544759,
+          "residual": 9.436113574552408,
+          "abs_error": 9.436113574552408,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV3-66",
+          "heavy_v_gene": "IGHV3-66*01_IGHV3-66*02_IGHV3-66*04"
+        },
+        {
+          "antibody_id": "jain2017_tm_0083",
+          "value": 60.5,
+          "oof_prediction": 69.91665188085076,
+          "residual": -9.416651880850765,
+          "abs_error": 9.416651880850765,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 117,
+          "heavy_v_family": "IGHV1-3",
+          "heavy_v_gene": "IGHV1-3*01_IGHV1-3*05"
+        },
+        {
+          "antibody_id": "jain2017_tm_0077",
+          "value": 74.5,
+          "oof_prediction": 65.28564918967434,
+          "residual": 9.214350810325657,
+          "abs_error": 9.214350810325657,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_tm_0125",
+          "value": 83.0,
+          "oof_prediction": 73.81827368383667,
+          "residual": 9.181726316163337,
+          "abs_error": 9.181726316163337,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*11_IGHV1-69*12_IGHV1-69*13_IGHV1-69*15_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_tm_0015",
+          "value": 83.5,
+          "oof_prediction": 74.89323359537397,
+          "residual": 8.606766404626029,
+          "abs_error": 8.606766404626029,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV3-48",
+          "heavy_v_gene": "IGHV3-48*01_IGHV3-48*04"
+        },
+        {
+          "antibody_id": "jain2017_tm_0070",
+          "value": 78.5,
+          "oof_prediction": 70.46416491617981,
+          "residual": 8.035835083820189,
+          "abs_error": 8.035835083820189,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV4-4",
+          "heavy_v_gene": "IGHV4-4*02"
+        }
+      ],
+      "tail_error_ratio": 1.8033171782461077
+    },
+    "germline": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_tm_by_germline.png",
+      "n_families_tested": 10,
+      "n_biased_fdr05": 0,
+      "biased_families": [],
+      "table": [
+        {
+          "family": "IGHV3-66",
+          "n": 7,
+          "mean_residual": 2.6033635703122138,
+          "mean_residual_others": -0.21962507255994312,
+          "mean_measured": 75.21428571428571,
+          "mean_measured_others": 71.07307692307693,
+          "mae": 3.0816041986378013,
+          "p_residual": 0.1045940845179217,
+          "p_measured": 0.039053031015613485,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.3905303101561348,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-23",
+          "n": 21,
+          "mean_residual": 0.5103615277805861,
+          "mean_residual_others": -0.18142505624137426,
+          "mean_measured": 72.76190476190476,
+          "mean_measured_others": 71.01724137931035,
+          "mae": 4.763546227601301,
+          "p_residual": 0.3590856777921334,
+          "p_measured": 0.13197237203673387,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.6598618601836693,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-69",
+          "n": 10,
+          "mean_residual": 0.4818005539582474,
+          "mean_residual_others": -0.11925763763928805,
+          "mean_measured": 70.8,
+          "mean_measured_others": 71.32283464566929,
+          "mae": 4.086662771003615,
+          "p_residual": 0.7375322992310676,
+          "p_measured": 0.8425041886095346,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.990837201561012,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30",
+          "n": 5,
+          "mean_residual": 0.1508483955015322,
+          "mean_residual_others": -0.08395421528874826,
+          "mean_measured": 70.9,
+          "mean_measured_others": 71.29924242424242,
+          "mae": 1.969597044272308,
+          "p_residual": 0.8022246786494291,
+          "p_measured": 0.990837201561012,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.990837201561012,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-3",
+          "n": 10,
+          "mean_residual": -0.35552436382677965,
+          "mean_residual_others": -0.05332654175070327,
+          "mean_measured": 72.0,
+          "mean_measured_others": 71.22834645669292,
+          "mae": 3.863678835810069,
+          "p_residual": 0.957106322048173,
+          "p_measured": 0.5051274023394248,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.8150603311379867,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30-5",
+          "n": 6,
+          "mean_residual": -0.3926076512971428,
+          "mean_residual_others": -0.06085548498339125,
+          "mean_measured": 68.5,
+          "mean_measured_others": 71.41221374045801,
+          "mae": 3.9647487516649726,
+          "p_residual": 0.9713732295645443,
+          "p_measured": 0.3409080508368204,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.8150603311379867,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-46",
+          "n": 16,
+          "mean_residual": -0.6974877162091015,
+          "mean_residual_others": 0.006876768749905079,
+          "mean_measured": 71.03125,
+          "mean_measured_others": 71.31818181818181,
+          "mae": 4.478201959776378,
+          "p_residual": 0.685135461632564,
+          "p_measured": 0.9119041124560082,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.990837201561012,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-18",
+          "n": 5,
+          "mean_residual": -1.3160444109267757,
+          "mean_residual_others": -0.028390093833130556,
+          "mean_measured": 69.4,
+          "mean_measured_others": 71.35606060606061,
+          "mae": 2.9714258105102376,
+          "p_residual": 0.5805633358210803,
+          "p_measured": 0.46585398327176697,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.8150603311379867,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-21",
+          "n": 5,
+          "mean_residual": -1.4131392727800516,
+          "mean_residual_others": -0.02471225815687009,
+          "mean_measured": 68.7,
+          "mean_measured_others": 71.38257575757575,
+          "mae": 4.6160391294855625,
+          "p_residual": 0.4431405496260426,
+          "p_measured": 0.2191465970197034,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.7304886567323448,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-2",
+          "n": 7,
+          "mean_residual": -1.7408598094823466,
+          "mean_residual_others": 0.014294647890533203,
+          "mean_measured": 70.0,
+          "mean_measured_others": 71.35384615384615,
+          "mae": 2.3482316007405695,
+          "p_residual": 0.31412563866747334,
+          "p_measured": 0.5705422317965907,
+          "p_residual_bh": 0.9713732295645443,
+          "p_measured_bh": 0.8150603311379867,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        }
+      ]
+    },
+    "applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_tm_applicability.png",
+      "bands": [
+        {
+          "band": "least similar",
+          "n": 15,
+          "mean_identity": 0.5722866666666666,
+          "mae": 4.002749859560538,
+          "interval_coverage": 0.8
+        },
+        {
+          "band": "middle",
+          "n": 14,
+          "mean_identity": 0.6255571428571428,
+          "mae": 5.054795250761392,
+          "interval_coverage": 0.7142857142857143
+        },
+        {
+          "band": "most similar",
+          "n": 14,
+          "mean_identity": 0.6687000000000001,
+          "mae": 4.944959560981405,
+          "interval_coverage": 0.7142857142857143
+        }
+      ],
+      "identity_vs_error_spearman": 0.09303208178813648,
+      "identity_vs_error_p": 0.5529369833858403
+    },
+    "ablation": [
+      {
+        "ablation": "none (full descriptor set)",
+        "n_features": 388,
+        "n_removed": 0,
+        "spearman": 0.16509134853442262,
+        "delta_vs_full": 0.0
+      },
+      {
+        "ablation": "drop composition",
+        "n_features": 247,
+        "n_removed": 141,
+        "spearman": 0.1619441721312039,
+        "delta_vs_full": -0.00314717640321871
+      },
+      {
+        "ablation": "drop hydropathy",
+        "n_features": 334,
+        "n_removed": 54,
+        "spearman": 0.1637068710810779,
+        "delta_vs_full": -0.001384477453344718
+      },
+      {
+        "ablation": "drop charge_and_pI",
+        "n_features": 356,
+        "n_removed": 32,
+        "spearman": 0.18283507306295543,
+        "delta_vs_full": 0.017743724528532817
+      },
+      {
+        "ablation": "drop cdr_restricted",
+        "n_features": 128,
+        "n_removed": 260,
+        "spearman": 0.25142157246752234,
+        "delta_vs_full": 0.08633022393309972
+      },
+      {
+        "ablation": "drop liability_motifs",
+        "n_features": 252,
+        "n_removed": 136,
+        "spearman": 0.17415932564874123,
+        "delta_vs_full": 0.009067977114318615
+      },
+      {
+        "ablation": "drop size_and_stability",
+        "n_features": 367,
+        "n_removed": 21,
+        "spearman": 0.13968513665027868,
+        "delta_vs_full": -0.025406211884143937
+      },
+      {
+        "ablation": "only composition",
+        "n_features": 141,
+        "n_removed": 247,
+        "spearman": 0.18085291225707067,
+        "delta_vs_full": 0.01576156372264806
+      },
+      {
+        "ablation": "only hydropathy",
+        "n_features": 54,
+        "n_removed": 334,
+        "spearman": 0.16345939281791677,
+        "delta_vs_full": -0.0016319557165058451
+      },
+      {
+        "ablation": "only charge_and_pI",
+        "n_features": 32,
+        "n_removed": 356,
+        "spearman": -0.07545752325818163,
+        "delta_vs_full": -0.24054887179260426
+      },
+      {
+        "ablation": "only cdr_restricted",
+        "n_features": 260,
+        "n_removed": 128,
+        "spearman": 0.017039832180340483,
+        "delta_vs_full": -0.14805151635408215
+      },
+      {
+        "ablation": "only liability_motifs",
+        "n_features": 136,
+        "n_removed": 252,
+        "spearman": 0.09413746272565414,
+        "delta_vs_full": -0.07095388580876848
+      },
+      {
+        "ablation": "only size_and_stability",
+        "n_features": 21,
+        "n_removed": 367,
+        "spearman": 0.16641745847287087,
+        "delta_vs_full": 0.0013261099384482555
+      }
+    ],
+    "ablation_figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\ablation_tm.png"
+  },
+  "psr": {
+    "residuals": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_psr_residuals.png",
+      "mae_overall": 0.14293968741205648,
+      "mae_risk_positive": 0.39405651635090005,
+      "mae_risk_negative": 0.11435728411820434,
+      "n_risk_positive": 14,
+      "error_vs_value_spearman": 0.24136909372540744,
+      "worst_predictions": [
+        {
+          "antibody_id": "jain2017_psr_0125",
+          "value": 0.81,
+          "oof_prediction": 0.2083236950887348,
+          "residual": 0.6016763049112652,
+          "abs_error": 0.6016763049112652,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*01_IGHV1-69*11_IGHV1-69*12_IGHV1-69*13_IGHV1-69*15_IGHV1-69*19_IGHV1-69D*01"
+        },
+        {
+          "antibody_id": "jain2017_psr_0054",
+          "value": 0.66,
+          "oof_prediction": 0.0941903324367616,
+          "residual": 0.5658096675632384,
+          "abs_error": 0.5658096675632384,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 130,
+          "heavy_v_family": "IGHV1-69",
+          "heavy_v_gene": "IGHV1-69*06_IGHV1-69*14"
+        },
+        {
+          "antibody_id": "jain2017_psr_0112",
+          "value": 0.77,
+          "oof_prediction": 0.2184693844715503,
+          "residual": 0.5515306155284497,
+          "abs_error": 0.5515306155284497,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 113,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_psr_0113",
+          "value": 0.76,
+          "oof_prediction": 0.2244270279864568,
+          "residual": 0.5355729720135431,
+          "abs_error": 0.5355729720135431,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 118,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_psr_0028",
+          "value": 0.33,
+          "oof_prediction": -0.163750490533146,
+          "residual": 0.493750490533146,
+          "abs_error": 0.493750490533146,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 121,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*04"
+        },
+        {
+          "antibody_id": "jain2017_psr_0009",
+          "value": 0.38,
+          "oof_prediction": -0.0865615568935156,
+          "residual": 0.4665615568935157,
+          "abs_error": 0.4665615568935157,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 125,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*01_IGHV3-23D*01"
+        },
+        {
+          "antibody_id": "jain2017_psr_0086",
+          "value": 0.52,
+          "oof_prediction": 0.0901338381549322,
+          "residual": 0.4298661618450677,
+          "abs_error": 0.4298661618450677,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 117,
+          "heavy_v_family": "IGHV4-34",
+          "heavy_v_gene": "IGHV4-34*01_IGHV4-34*02"
+        },
+        {
+          "antibody_id": "jain2017_psr_0105",
+          "value": 0.64,
+          "oof_prediction": 0.2585952588948107,
+          "residual": 0.3814047411051893,
+          "abs_error": 0.3814047411051893,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 115,
+          "heavy_v_family": "IGHV1-2",
+          "heavy_v_gene": "IGHV1-2*06"
+        },
+        {
+          "antibody_id": "jain2017_psr_0011",
+          "value": 0.56,
+          "oof_prediction": 0.1861025072067427,
+          "residual": 0.3738974927932573,
+          "abs_error": 0.3738974927932573,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 120,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        },
+        {
+          "antibody_id": "jain2017_psr_0110",
+          "value": 0.7,
+          "oof_prediction": 0.3409677424729685,
+          "residual": 0.3590322575270314,
+          "abs_error": 0.3590322575270314,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 115,
+          "heavy_v_family": "IGHV1-2",
+          "heavy_v_gene": "IGHV1-2*02_IGHV1-2*06"
+        },
+        {
+          "antibody_id": "jain2017_psr_0063",
+          "value": 0.55,
+          "oof_prediction": 0.1950590220988859,
+          "residual": 0.354940977901114,
+          "abs_error": 0.354940977901114,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 126,
+          "heavy_v_family": "IGHV3-23",
+          "heavy_v_gene": "IGHV3-23*04"
+        },
+        {
+          "antibody_id": "jain2017_psr_0016",
+          "value": 0.42,
+          "oof_prediction": 0.0684618705394424,
+          "residual": 0.3515381294605575,
+          "abs_error": 0.3515381294605575,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 117,
+          "heavy_v_family": "IGHV3-66",
+          "heavy_v_gene": "IGHV3-66*01_IGHV3-66*02_IGHV3-66*04"
+        },
+        {
+          "antibody_id": "jain2017_psr_0061",
+          "value": 0.48,
+          "oof_prediction": 0.1394001825222752,
+          "residual": 0.3405998174777247,
+          "abs_error": 0.3405998174777247,
+          "risk_label": 1,
+          "is_censored": false,
+          "heavy_len": 127,
+          "heavy_v_family": "IGHV4-39",
+          "heavy_v_gene": "IGHV4-39*01_IGHV4-39*07"
+        },
+        {
+          "antibody_id": "jain2017_psr_0116",
+          "value": 0.21,
+          "oof_prediction": -0.1257974144304939,
+          "residual": 0.3357974144304939,
+          "abs_error": 0.3357974144304939,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 118,
+          "heavy_v_family": "IGHV1-24",
+          "heavy_v_gene": "IGHV1-24*01"
+        },
+        {
+          "antibody_id": "jain2017_psr_0077",
+          "value": 0.18,
+          "oof_prediction": 0.5043264017019722,
+          "residual": -0.3243264017019722,
+          "abs_error": 0.3243264017019722,
+          "risk_label": 0,
+          "is_censored": false,
+          "heavy_len": 119,
+          "heavy_v_family": "IGHV1-46",
+          "heavy_v_gene": "IGHV1-46*01_IGHV1-46*03"
+        }
+      ],
+      "tail_error_ratio": 3.4458366110162886
+    },
+    "germline": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_psr_by_germline.png",
+      "n_families_tested": 10,
+      "n_biased_fdr05": 0,
+      "biased_families": [],
+      "table": [
+        {
+          "family": "IGHV1-2",
+          "n": 7,
+          "mean_residual": 0.11378329260271314,
+          "mean_residual_others": 0.0014939623703281895,
+          "mean_measured": 0.3628571428571429,
+          "mean_measured_others": 0.13338461538461538,
+          "mae": 0.12849956500852552,
+          "p_residual": 0.04731678375611323,
+          "p_measured": 0.005975202486486355,
+          "p_residual_bh": 0.4731678375611323,
+          "p_measured_bh": 0.05975202486486355,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-69",
+          "n": 10,
+          "mean_residual": 0.07379156941067419,
+          "mean_residual_others": 0.0019904130886213706,
+          "mean_measured": 0.21000000000000002,
+          "mean_measured_others": 0.14,
+          "mae": 0.23358831472710823,
+          "p_residual": 0.6942858755649501,
+          "p_measured": 0.4767395136465813,
+          "p_residual_bh": 0.7310098530175517,
+          "p_measured_bh": 0.7599402800499765,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30",
+          "n": 5,
+          "mean_residual": 0.052950833215634915,
+          "mean_residual_others": 0.005499575683965772,
+          "mean_measured": 0.266,
+          "mean_measured_others": 0.140530303030303,
+          "mae": 0.08450283725609567,
+          "p_residual": 0.2572946992723998,
+          "p_measured": 0.08779190451397578,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.4203976303542611,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-66",
+          "n": 7,
+          "mean_residual": 0.05090297290444319,
+          "mean_residual_others": 0.004879825738696568,
+          "mean_measured": 0.09428571428571429,
+          "mean_measured_others": 0.14784615384615388,
+          "mae": 0.14425734218071673,
+          "p_residual": 0.4568325130984369,
+          "p_measured": 0.6839462520449788,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.7599402800499765,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-23",
+          "n": 21,
+          "mean_residual": 0.02867650936897679,
+          "mean_residual_others": 0.00334906430700986,
+          "mean_measured": 0.08761904761904762,
+          "mean_measured_others": 0.15551724137931033,
+          "mae": 0.11483257155280328,
+          "p_residual": 0.3879522819904191,
+          "p_measured": 0.17269261992930962,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.43173154982327405,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-46",
+          "n": 16,
+          "mean_residual": 0.015285395545581358,
+          "mean_residual_others": 0.006166378740763261,
+          "mean_measured": 0.23,
+          "mean_measured_others": 0.1338842975206612,
+          "mae": 0.21852399460035096,
+          "p_residual": 0.47124488878408544,
+          "p_measured": 0.12611928910627832,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.4203976303542611,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-30-5",
+          "n": 6,
+          "mean_residual": -0.0109605561575431,
+          "mean_residual_others": 0.008064591551961183,
+          "mean_measured": 0.11,
+          "mean_measured_others": 0.14671755725190838,
+          "mae": 0.04455444607902726,
+          "p_residual": 0.7310098530175517,
+          "p_measured": 0.8824195470224732,
+          "p_residual_bh": 0.7310098530175517,
+          "p_measured_bh": 0.8824195470224732,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-3",
+          "n": 10,
+          "mean_residual": -0.028943985084410935,
+          "mean_residual_others": 0.010079826828391857,
+          "mean_measured": 0.182,
+          "mean_measured_others": 0.1422047244094488,
+          "mae": 0.14945810088106248,
+          "p_residual": 0.5000676365300398,
+          "p_measured": 0.6512726231769175,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.7599402800499765,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV3-21",
+          "n": 5,
+          "mean_residual": -0.054998922170653976,
+          "mean_residual_others": 0.009588581569810045,
+          "mean_measured": 0.082,
+          "mean_measured_others": 0.1475,
+          "mae": 0.10973259869590626,
+          "p_residual": 0.5882824021403907,
+          "p_measured": 0.6107208675752922,
+          "p_residual_bh": 0.7310098530175517,
+          "p_measured_bh": 0.7599402800499765,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        },
+        {
+          "family": "IGHV1-18",
+          "n": 5,
+          "mean_residual": -0.09132019696744156,
+          "mean_residual_others": 0.01096438743332473,
+          "mean_measured": 0.13799999999999998,
+          "mean_measured_others": 0.14537878787878786,
+          "mae": 0.09132019696744156,
+          "p_residual": 0.2980652822326018,
+          "p_measured": 0.4341025144653897,
+          "p_residual_bh": 0.7143823379000569,
+          "p_measured_bh": 0.7599402800499765,
+          "biased_fdr05": false,
+          "extreme_fdr05": false
+        }
+      ]
+    },
+    "applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\error_psr_applicability.png",
+      "bands": [
+        {
+          "band": "least similar",
+          "n": 15,
+          "mean_identity": 0.5722866666666666,
+          "mae": 0.4200941233720866,
+          "interval_coverage": 0.2
+        },
+        {
+          "band": "middle",
+          "n": 14,
+          "mean_identity": 0.6255571428571428,
+          "mae": 0.403442756012359,
+          "interval_coverage": 0.5
+        },
+        {
+          "band": "most similar",
+          "n": 14,
+          "mean_identity": 0.6687000000000001,
+          "mae": 0.31208319374657806,
+          "interval_coverage": 0.35714285714285715
+        }
+      ],
+      "identity_vs_error_spearman": -0.22090396024916562,
+      "identity_vs_error_p": 0.15458130671317538
+    },
+    "ablation": [
+      {
+        "ablation": "none (full descriptor set)",
+        "n_features": 388,
+        "n_removed": 0,
+        "spearman": 0.35468075954350076,
+        "delta_vs_full": 0.0
+      },
+      {
+        "ablation": "drop composition",
+        "n_features": 247,
+        "n_removed": 141,
+        "spearman": 0.30323213430135976,
+        "delta_vs_full": -0.051448625242141
+      },
+      {
+        "ablation": "drop hydropathy",
+        "n_features": 334,
+        "n_removed": 54,
+        "spearman": 0.3695956359873908,
+        "delta_vs_full": 0.014914876443890057
+      },
+      {
+        "ablation": "drop charge_and_pI",
+        "n_features": 356,
+        "n_removed": 32,
+        "spearman": 0.31874269712886094,
+        "delta_vs_full": -0.035938062414639815
+      },
+      {
+        "ablation": "drop cdr_restricted",
+        "n_features": 128,
+        "n_removed": 260,
+        "spearman": 0.38979596703840663,
+        "delta_vs_full": 0.035115207494905876
+      },
+      {
+        "ablation": "drop liability_motifs",
+        "n_features": 252,
+        "n_removed": 136,
+        "spearman": 0.3406366958214151,
+        "delta_vs_full": -0.014044063722085665
+      },
+      {
+        "ablation": "drop size_and_stability",
+        "n_features": 367,
+        "n_removed": 21,
+        "spearman": 0.36558989746709075,
+        "delta_vs_full": 0.010909137923589995
+      },
+      {
+        "ablation": "only composition",
+        "n_features": 141,
+        "n_removed": 247,
+        "spearman": 0.33625486716908926,
+        "delta_vs_full": -0.0184258923744115
+      },
+      {
+        "ablation": "only hydropathy",
+        "n_features": 54,
+        "n_removed": 334,
+        "spearman": 0.004959846372016247,
+        "delta_vs_full": -0.3497209131714845
+      },
+      {
+        "ablation": "only charge_and_pI",
+        "n_features": 32,
+        "n_removed": 356,
+        "spearman": 0.28272638777400094,
+        "delta_vs_full": -0.07195437176949981
+      },
+      {
+        "ablation": "only cdr_restricted",
+        "n_features": 260,
+        "n_removed": 128,
+        "spearman": 0.18262478541144173,
+        "delta_vs_full": -0.17205597413205903
+      },
+      {
+        "ablation": "only liability_motifs",
+        "n_features": 136,
+        "n_removed": 252,
+        "spearman": 0.04931324100258596,
+        "delta_vs_full": -0.3053675185409148
+      },
+      {
+        "ablation": "only size_and_stability",
+        "n_features": 21,
+        "n_removed": 367,
+        "spearman": 0.006479351469193744,
+        "delta_vs_full": -0.348201408074307
+      }
+    ],
+    "ablation_figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\ablation_psr.png"
+  }
+}

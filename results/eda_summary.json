@@ -1,0 +1,733 @@
+{
+  "hic": {
+    "target_distributions": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_hic_target_distributions.png",
+      "table": [
+        {
+          "cohort": "jain2017_hic",
+          "n": 137,
+          "min": 8.5,
+          "q1": 9.3,
+          "median": 9.9,
+          "q3": 10.9,
+          "max": 25.0,
+          "mean": 10.328467153284672,
+          "std": 2.0971601563399087,
+          "n_censored": 2,
+          "frac_censored": 0.014598540145985401,
+          "n_risk_positive": 15
+        },
+        {
+          "cohort": "jain2024_hic",
+          "n": 43,
+          "min": 8.4,
+          "q1": 9.2,
+          "median": 9.9,
+          "q3": 11.35,
+          "max": 16.0,
+          "mean": 10.686046511627907,
+          "std": 2.057226680954916,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 11
+        },
+        {
+          "cohort": "jetha2019_hic",
+          "n": 97,
+          "min": 21.27,
+          "q1": 25.28,
+          "median": 27.59,
+          "q3": 30.0,
+          "max": 30.0,
+          "mean": 27.19783505154639,
+          "std": 2.565122733744968,
+          "n_censored": 30,
+          "frac_censored": 0.30927835051546393,
+          "n_risk_positive": 97
+        }
+      ]
+    },
+    "sequence_properties": {
+      "figures": [
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_hic_sequence_properties.png",
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_hic_vgene_usage.png"
+      ]
+    },
+    "identity_applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_hic_identity_applicability.png",
+      "median_pairwise_identity": 0.35185185074806213,
+      "pairs_above_0.8": 5
+    },
+    "univariate": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_hic_univariate.png",
+      "n_significant_fdr05": 49,
+      "top": [
+        {
+          "descriptor": "CDRall_n_hydrophobic",
+          "spearman": 0.4219727988574131,
+          "p_value": 2.810434298839462e-07,
+          "p_adjusted_bh": 6.466857241838316e-05,
+          "significant_fdr05": true,
+          "abs_spearman": 0.4219727988574131
+        },
+        {
+          "descriptor": "CDRall_bm_mean",
+          "spearman": 0.41824177387831407,
+          "p_value": 3.663941780078366e-07,
+          "p_adjusted_bh": 6.466857241838316e-05,
+          "significant_fdr05": true,
+          "abs_spearman": 0.41824177387831407
+        },
+        {
+          "descriptor": "CDRall_frac_R",
+          "spearman": -0.38970000001182187,
+          "p_value": 2.514103677071471e-06,
+          "p_adjusted_bh": 0.0002958261993354097,
+          "significant_fdr05": true,
+          "abs_spearman": 0.38970000001182187
+        },
+        {
+          "descriptor": "CDRall_frac_positive",
+          "spearman": -0.37138689721063417,
+          "p_value": 7.8950828082213e-06,
+          "p_adjusted_bh": 0.0006967410578255297,
+          "significant_fdr05": true,
+          "abs_spearman": 0.37138689721063417
+        },
+        {
+          "descriptor": "CDRall_eis_mean",
+          "spearman": 0.36638186747302864,
+          "p_value": 1.0666564932177153e-05,
+          "p_adjusted_bh": 0.000753059484211707,
+          "significant_fdr05": true,
+          "abs_spearman": 0.36638186747302864
+        },
+        {
+          "descriptor": "CDRall_n_aromatic",
+          "spearman": 0.35473230943092054,
+          "p_value": 2.107864659492422e-05,
+          "p_adjusted_bh": 0.0012401270413347082,
+          "significant_fdr05": true,
+          "abs_spearman": 0.35473230943092054
+        },
+        {
+          "descriptor": "CDRall_bm_maxwin",
+          "spearman": 0.3436770568595734,
+          "p_value": 3.926892501867967e-05,
+          "p_adjusted_bh": 0.0015735644663018502,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3436770568595734
+        },
+        {
+          "descriptor": "H_cdr2_bm_mean",
+          "spearman": 0.3417945069224537,
+          "p_value": 4.355727039026654e-05,
+          "p_adjusted_bh": 0.0015735644663018502,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3417945069224537
+        },
+        {
+          "descriptor": "H_cdr2_bm_maxwin",
+          "spearman": 0.3414274195480648,
+          "p_value": 4.4443077606588644e-05,
+          "p_adjusted_bh": 0.0015735644663018502,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3414274195480648
+        },
+        {
+          "descriptor": "H_cdr3_bm_mean",
+          "spearman": 0.3403643485767394,
+          "p_value": 4.710459193298468e-05,
+          "p_adjusted_bh": 0.0015735644663018502,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3403643485767394
+        },
+        {
+          "descriptor": "H_frac_R",
+          "spearman": -0.3396281323671097,
+          "p_value": 4.903458676861289e-05,
+          "p_adjusted_bh": 0.0015735644663018502,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3396281323671097
+        },
+        {
+          "descriptor": "CDRall_frac_hydrophobic",
+          "spearman": 0.335376765320536,
+          "p_value": 6.170973089234388e-05,
+          "p_adjusted_bh": 0.0018152945837497823,
+          "significant_fdr05": true,
+          "abs_spearman": 0.335376765320536
+        },
+        {
+          "descriptor": "H_frac_positive",
+          "spearman": -0.3240628962437255,
+          "p_value": 0.0001119637928693992,
+          "p_adjusted_bh": 0.0030402476063767633,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3240628962437255
+        },
+        {
+          "descriptor": "H_frac_aromatic",
+          "spearman": 0.31590161254794563,
+          "p_value": 0.00016963000112132267,
+          "p_adjusted_bh": 0.003991959359721793,
+          "significant_fdr05": true,
+          "abs_spearman": 0.31590161254794563
+        },
+        {
+          "descriptor": "H_aromaticity",
+          "spearman": 0.31590161254794563,
+          "p_value": 0.00016963000112132267,
+          "p_adjusted_bh": 0.003991959359721793,
+          "significant_fdr05": true,
+          "abs_spearman": 0.31590161254794563
+        }
+      ]
+    }
+  },
+  "acsins": {
+    "target_distributions": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_acsins_target_distributions.png",
+      "table": [
+        {
+          "cohort": "jain2017_acsins",
+          "n": 137,
+          "min": -1.1,
+          "q1": 0.0,
+          "median": 1.7,
+          "q3": 7.9,
+          "max": 29.9,
+          "mean": 6.766423357664234,
+          "std": 10.389058705678712,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 15
+        },
+        {
+          "cohort": "jain2024_acsins",
+          "n": 43,
+          "min": 0.0,
+          "q1": 4.7,
+          "median": 13.8,
+          "q3": 17.5,
+          "max": 22.2,
+          "mean": 11.083720930232557,
+          "std": 7.552134048212501,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 0
+        }
+      ]
+    },
+    "sequence_properties": {
+      "figures": [
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_acsins_sequence_properties.png",
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_acsins_vgene_usage.png"
+      ]
+    },
+    "identity_applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_acsins_identity_applicability.png",
+      "median_pairwise_identity": 0.35185185074806213,
+      "pairs_above_0.8": 5
+    },
+    "univariate": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_acsins_univariate.png",
+      "n_significant_fdr05": 6,
+      "top": [
+        {
+          "descriptor": "Fv_net_charge_ph55",
+          "spearman": 0.33587523524252694,
+          "p_value": 6.0078800360021195e-05,
+          "p_adjusted_bh": 0.012627688793145542,
+          "significant_fdr05": true,
+          "abs_spearman": 0.33587523524252694
+        },
+        {
+          "descriptor": "H_charge_ph55",
+          "spearman": 0.32939516948757325,
+          "p_value": 8.480046524071164e-05,
+          "p_adjusted_bh": 0.012627688793145542,
+          "significant_fdr05": true,
+          "abs_spearman": 0.32939516948757325
+        },
+        {
+          "descriptor": "Fv_net_charge_ph74",
+          "spearman": 0.3214416185105021,
+          "p_value": 0.0001281115639279502,
+          "p_adjusted_bh": 0.012627688793145542,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3214416185105021
+        },
+        {
+          "descriptor": "H_charge_ph74",
+          "spearman": 0.31927225595686176,
+          "p_value": 0.00014308995799598348,
+          "p_adjusted_bh": 0.012627688793145542,
+          "significant_fdr05": true,
+          "abs_spearman": 0.31927225595686176
+        },
+        {
+          "descriptor": "H_pI",
+          "spearman": 0.3007807270035222,
+          "p_value": 0.0003551360194627497,
+          "p_adjusted_bh": 0.02507260297407013,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3007807270035222
+        },
+        {
+          "descriptor": "L_frac_D",
+          "spearman": -0.2903460891240842,
+          "p_value": 0.000578017400591617,
+          "p_adjusted_bh": 0.03400669040147346,
+          "significant_fdr05": true,
+          "abs_spearman": 0.2903460891240842
+        },
+        {
+          "descriptor": "CDRall_n_negative",
+          "spearman": -0.27445636544572627,
+          "p_value": 0.0011722305884606535,
+          "p_adjusted_bh": 0.050672909777469646,
+          "significant_fdr05": false,
+          "abs_spearman": 0.27445636544572627
+        },
+        {
+          "descriptor": "CDRall_charge_ph74",
+          "spearman": 0.2735098368455949,
+          "p_value": 0.0012210733585115846,
+          "p_adjusted_bh": 0.050672909777469646,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2735098368455949
+        },
+        {
+          "descriptor": "CDRall_charge_ph55",
+          "spearman": 0.27047876531782694,
+          "p_value": 0.0013902542020132022,
+          "p_adjusted_bh": 0.050672909777469646,
+          "significant_fdr05": false,
+          "abs_spearman": 0.27047876531782694
+        },
+        {
+          "descriptor": "H_cdr2_pI",
+          "spearman": 0.26972541566915575,
+          "p_value": 0.0014354931948291686,
+          "p_adjusted_bh": 0.050672909777469646,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26972541566915575
+        },
+        {
+          "descriptor": "CDRall_frac_negative",
+          "spearman": -0.26745542263060684,
+          "p_value": 0.0015800397599023597,
+          "p_adjusted_bh": 0.050704912295048456,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26745542263060684
+        },
+        {
+          "descriptor": "H_frac_negative",
+          "spearman": -0.26292739939223647,
+          "p_value": 0.0019086337335198116,
+          "p_adjusted_bh": 0.051451654512898605,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26292739939223647
+        },
+        {
+          "descriptor": "H_cdr2_charge_ph55",
+          "spearman": 0.26199381485661505,
+          "p_value": 0.0019836541081827775,
+          "p_adjusted_bh": 0.051451654512898605,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26199381485661505
+        },
+        {
+          "descriptor": "L_frac_K",
+          "spearman": -0.26130660707670894,
+          "p_value": 0.002040575533089463,
+          "p_adjusted_bh": 0.051451654512898605,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26130660707670894
+        },
+        {
+          "descriptor": "L_frac_tiny",
+          "spearman": 0.25326933353860726,
+          "p_value": 0.0028253800518056667,
+          "p_adjusted_bh": 0.06534824723563808,
+          "significant_fdr05": false,
+          "abs_spearman": 0.25326933353860726
+        }
+      ]
+    }
+  },
+  "tm": {
+    "target_distributions": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_tm_target_distributions.png",
+      "table": [
+        {
+          "cohort": "jain2017_tm",
+          "n": 137,
+          "min": 59.5,
+          "q1": 67.0,
+          "median": 71.0,
+          "q3": 75.5,
+          "max": 91.5,
+          "mean": 71.28467153284672,
+          "std": 5.861387741107913,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 14
+        },
+        {
+          "cohort": "jain2024_tm",
+          "n": 43,
+          "min": 65.5,
+          "q1": 72.75,
+          "median": 75.5,
+          "q3": 79.25,
+          "max": 85.0,
+          "mean": 76.30232558139535,
+          "std": 4.7723653101347585,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 0
+        }
+      ]
+    },
+    "sequence_properties": {
+      "figures": [
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_tm_sequence_properties.png",
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_tm_vgene_usage.png"
+      ]
+    },
+    "identity_applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_tm_identity_applicability.png",
+      "median_pairwise_identity": 0.35185185074806213,
+      "pairs_above_0.8": 5
+    },
+    "univariate": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_tm_univariate.png",
+      "n_significant_fdr05": 0,
+      "top": [
+        {
+          "descriptor": "H_instability",
+          "spearman": -0.29795682474419544,
+          "p_value": 0.00040591224535535737,
+          "p_adjusted_bh": 0.14328702261044116,
+          "significant_fdr05": false,
+          "abs_spearman": 0.29795682474419544
+        },
+        {
+          "descriptor": "L_frac_K",
+          "spearman": 0.26169415049549555,
+          "p_value": 0.0020082957248554437,
+          "p_adjusted_bh": 0.3218453379486822,
+          "significant_fdr05": false,
+          "abs_spearman": 0.26169415049549555
+        },
+        {
+          "descriptor": "H_cdr3_liab_isomerisation_DS",
+          "spearman": -0.24752071686915872,
+          "p_value": 0.003544041330492301,
+          "p_adjusted_bh": 0.3218453379486822,
+          "significant_fdr05": false,
+          "abs_spearman": 0.24752071686915872
+        },
+        {
+          "descriptor": "H_cdr2_len",
+          "spearman": -0.24678523071528247,
+          "p_value": 0.0036469726679737363,
+          "p_adjusted_bh": 0.3218453379486822,
+          "significant_fdr05": false,
+          "abs_spearman": 0.24678523071528247
+        },
+        {
+          "descriptor": "L_frac_tiny",
+          "spearman": -0.23214720324761703,
+          "p_value": 0.006338957147216265,
+          "p_adjusted_bh": 0.39780801401889526,
+          "significant_fdr05": false,
+          "abs_spearman": 0.23214720324761703
+        },
+        {
+          "descriptor": "L_frac_R",
+          "spearman": -0.2303807957338004,
+          "p_value": 0.006761609303437314,
+          "p_adjusted_bh": 0.39780801401889526,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2303807957338004
+        },
+        {
+          "descriptor": "L_liab_oxidation_W",
+          "spearman": -0.22271521669552,
+          "p_value": 0.008900041980920748,
+          "p_adjusted_bh": 0.4075025135710156,
+          "significant_fdr05": false,
+          "abs_spearman": 0.22271521669552
+        },
+        {
+          "descriptor": "L_cdr3_liab_oxidation_W",
+          "spearman": -0.21843816983037515,
+          "p_value": 0.010336252394372771,
+          "p_adjusted_bh": 0.4075025135710156,
+          "significant_fdr05": false,
+          "abs_spearman": 0.21843816983037515
+        },
+        {
+          "descriptor": "L_liab_deamidation_NH",
+          "spearman": -0.21828968186191633,
+          "p_value": 0.010389582498977734,
+          "p_adjusted_bh": 0.4075025135710156,
+          "significant_fdr05": false,
+          "abs_spearman": 0.21828968186191633
+        },
+        {
+          "descriptor": "L_cdr3_liab_isomerisation_DS",
+          "spearman": -0.2048399756361556,
+          "p_value": 0.016344043177800888,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2048399756361556
+        },
+        {
+          "descriptor": "H_liab_oxidation_M",
+          "spearman": -0.20050218686440238,
+          "p_value": 0.018812641237446356,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.20050218686440238
+        },
+        {
+          "descriptor": "H_frac_M",
+          "spearman": -0.1966051167721688,
+          "p_value": 0.021299098607825768,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.1966051167721688
+        },
+        {
+          "descriptor": "H_liab_isomerisation_DS",
+          "spearman": -0.195977255226579,
+          "p_value": 0.02172507982339036,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.195977255226579
+        },
+        {
+          "descriptor": "L_cdr3_bm_mean",
+          "spearman": 0.19553576444226087,
+          "p_value": 0.02202898765875949,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.19553576444226087
+        },
+        {
+          "descriptor": "L_cdr3_frac_polar",
+          "spearman": -0.19435187361075787,
+          "p_value": 0.02286205181324911,
+          "p_adjusted_bh": 0.5100625596008256,
+          "significant_fdr05": false,
+          "abs_spearman": 0.19435187361075787
+        }
+      ]
+    }
+  },
+  "psr": {
+    "target_distributions": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_psr_target_distributions.png",
+      "table": [
+        {
+          "cohort": "jain2017_psr",
+          "n": 137,
+          "min": 0.0,
+          "q1": 0.0,
+          "median": 0.0,
+          "q3": 0.23,
+          "max": 0.81,
+          "mean": 0.14510948905109491,
+          "std": 0.20422060155741464,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 14
+        },
+        {
+          "cohort": "jain2024_psr",
+          "n": 43,
+          "min": 0.0,
+          "q1": 0.04,
+          "median": 0.5,
+          "q3": 0.795,
+          "max": 0.92,
+          "mean": 0.4406976744186047,
+          "std": 0.34473174766999015,
+          "n_censored": 0,
+          "frac_censored": 0.0,
+          "n_risk_positive": 22
+        }
+      ]
+    },
+    "sequence_properties": {
+      "figures": [
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_psr_sequence_properties.png",
+        "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_psr_vgene_usage.png"
+      ]
+    },
+    "identity_applicability": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_psr_identity_applicability.png",
+      "median_pairwise_identity": 0.35185185074806213,
+      "pairs_above_0.8": 5
+    },
+    "univariate": {
+      "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_psr_univariate.png",
+      "n_significant_fdr05": 6,
+      "top": [
+        {
+          "descriptor": "Fv_net_charge_ph55",
+          "spearman": 0.37908875670248143,
+          "p_value": 4.9203665625317164e-06,
+          "p_adjusted_bh": 0.0006771184931313857,
+          "significant_fdr05": true,
+          "abs_spearman": 0.37908875670248143
+        },
+        {
+          "descriptor": "H_charge_ph55",
+          "spearman": 0.3769811375062303,
+          "p_value": 5.606799410740556e-06,
+          "p_adjusted_bh": 0.0006771184931313857,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3769811375062303
+        },
+        {
+          "descriptor": "Fv_net_charge_ph74",
+          "spearman": 0.3765596136669801,
+          "p_value": 5.754548100266734e-06,
+          "p_adjusted_bh": 0.0006771184931313857,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3765596136669801
+        },
+        {
+          "descriptor": "H_charge_ph74",
+          "spearman": 0.3690706242594624,
+          "p_value": 9.080268157961466e-06,
+          "p_adjusted_bh": 0.0008013336649400993,
+          "significant_fdr05": true,
+          "abs_spearman": 0.3690706242594624
+        },
+        {
+          "descriptor": "H_pI",
+          "spearman": 0.35233068335560375,
+          "p_value": 2.4177032578484804e-05,
+          "p_adjusted_bh": 0.0017068985000410271,
+          "significant_fdr05": true,
+          "abs_spearman": 0.35233068335560375
+        },
+        {
+          "descriptor": "H_cdr3_kd_maxwin",
+          "spearman": -0.28229868429787247,
+          "p_value": 0.0008311941912080062,
+          "p_adjusted_bh": 0.048901924916071024,
+          "significant_fdr05": true,
+          "abs_spearman": 0.28229868429787247
+        },
+        {
+          "descriptor": "H_frac_negative",
+          "spearman": -0.27395595864134803,
+          "p_value": 0.0011978255932479814,
+          "p_adjusted_bh": 0.06040463348807677,
+          "significant_fdr05": false,
+          "abs_spearman": 0.27395595864134803
+        },
+        {
+          "descriptor": "Fv_charge_symmetry_ph55",
+          "spearman": 0.2696641969469352,
+          "p_value": 0.0014392277188252664,
+          "p_adjusted_bh": 0.06350592309316487,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2696641969469352
+        },
+        {
+          "descriptor": "L_frac_D",
+          "spearman": -0.23665953532916695,
+          "p_value": 0.005364091735670645,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.23665953532916695
+        },
+        {
+          "descriptor": "H_frac_Y",
+          "spearman": 0.23381716683373913,
+          "p_value": 0.005961171219093765,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.23381716683373913
+        },
+        {
+          "descriptor": "H_frac_L",
+          "spearman": -0.23364173530095128,
+          "p_value": 0.005999892372099032,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.23364173530095128
+        },
+        {
+          "descriptor": "H_frac_Q",
+          "spearman": 0.23144107430804112,
+          "p_value": 0.006505008428894884,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.23144107430804112
+        },
+        {
+          "descriptor": "CDRall_charge_ph55",
+          "spearman": 0.22654015561383475,
+          "p_value": 0.007768023885060128,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.22654015561383475
+        },
+        {
+          "descriptor": "H_kd_mean",
+          "spearman": -0.2263784944361431,
+          "p_value": 0.00781315469280719,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2263784944361431
+        },
+        {
+          "descriptor": "CDRall_charge_ph74",
+          "spearman": 0.2244274635776367,
+          "p_value": 0.008376423909837926,
+          "p_adjusted_bh": 0.18779727134465463,
+          "significant_fdr05": false,
+          "abs_spearman": 0.2244274635776367
+        }
+      ]
+    }
+  },
+  "endpoint_correlations": {
+    "figure": "E:\\CourseWorks\\sem7\\AI_in_Drug_Discovery\\AIDD_Project2\\results\\figures\\eda_endpoint_correlations.png",
+    "spearman": {
+      "hic": {
+        "hic": 0.9999999999999998,
+        "acsins": 0.18546749520966585,
+        "tm": -0.12635532310029907,
+        "psr": 0.09160997295736137
+      },
+      "acsins": {
+        "hic": 0.18546749520966585,
+        "acsins": 1.0,
+        "tm": -0.1461610556602249,
+        "psr": 0.6460406707298436
+      },
+      "tm": {
+        "hic": -0.1263553231002991,
+        "acsins": -0.1461610556602249,
+        "tm": 0.9999999999999998,
+        "psr": -0.03167691723243278
+      },
+      "psr": {
+        "hic": 0.09160997295736137,
+        "acsins": 0.6460406707298437,
+        "tm": -0.03167691723243279,
+        "psr": 0.9999999999999998
+      }
+    }
+  }
+}

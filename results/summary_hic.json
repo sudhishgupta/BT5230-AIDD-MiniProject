@@ -1,0 +1,194 @@
+{
+  "endpoint": "hic",
+  "pretty_name": "HIC retention time",
+  "units": "min",
+  "favourable_direction": "lower",
+  "n_train": 137,
+  "train_cohort": "jain2017_hic",
+  "feature_sets": {
+    "baseline_trivial": 4,
+    "desc_global": 128,
+    "desc_cdr": 260,
+    "desc_all": 388,
+    "esm2_35m": 960,
+    "ablang2": 480,
+    "desc_all+ablang2": 868
+  },
+  "split_report": {
+    "endpoint": "hic",
+    "n_train": 137,
+    "clustering": {
+      "threshold_0.7": {
+        "n_clusters": 128,
+        "n_items": 137,
+        "largest_cluster": 3,
+        "n_singletons": 121,
+        "mean_cluster_size": 1.0703125
+      },
+      "threshold_0.8": {
+        "n_clusters": 132,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 127,
+        "mean_cluster_size": 1.0378787878787878
+      },
+      "threshold_0.9": {
+        "n_clusters": 134,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 131,
+        "mean_cluster_size": 1.0223880597014925
+      }
+    },
+    "identity_summary": {
+      "mean_pairwise_cdr_identity": 0.35211092233657837,
+      "max_pairwise_cdr_identity": 1.0,
+      "n_pairs_above_0.8": 5,
+      "n_pairs_above_0.9": 3
+    },
+    "applicability_domain": {
+      "jain2024_hic": {
+        "min": 0.5199999809265137,
+        "median": 0.625,
+        "max": 0.7169811129570007,
+        "mean": 0.6210177540779114
+      },
+      "jetha2019_hic": {
+        "min": 0.4897959232330322,
+        "median": 0.5102040767669678,
+        "max": 0.5510203838348389,
+        "mean": 0.5136634707450867
+      }
+    }
+  },
+  "best_regression": {
+    "feature_set": "desc_all",
+    "model": "svr_rbf",
+    "n": "137",
+    "n_features": "388",
+    "n_repeats": "5",
+    "seconds": 1.0,
+    "mae_mean": 0.9348131722418582,
+    "mae_std": 0.02497480100584476,
+    "rmse_mean": 1.974696395619235,
+    "rmse_std": 0.012659926480193056,
+    "r2_mean": 0.10683147616593877,
+    "r2_std": 0.011470131869025443,
+    "spearman_mean": 0.5357711222462038,
+    "spearman_std": 0.053725042479387045,
+    "spearman_p_mean": 1.1838528728005339e-08,
+    "spearman_p_std": 2.6465684941837344e-08,
+    "pearson_mean": 0.37378733248456103,
+    "pearson_std": 0.05135299700775405,
+    "pearson_p_mean": 5.1451361445255696e-05,
+    "pearson_p_std": 8.137800012858815e-05
+  },
+  "best_classification": {
+    "feature_set": "ablang2",
+    "model": "lightgbm",
+    "n": "137",
+    "n_features": "480",
+    "n_repeats": "5",
+    "seconds": 22.8,
+    "prevalence_mean": 0.10948905109489052,
+    "prevalence_std": 0.0,
+    "roc_auc_mean": 0.7511475409836066,
+    "roc_auc_std": 0.06184992176325449,
+    "pr_auc_mean": 0.3476077643580499,
+    "pr_auc_std": 0.09793371279874225,
+    "pr_auc_lift_mean": 3.1748175811368555,
+    "pr_auc_lift_std": 0.8944612435618458,
+    "threshold_mean": 0.12746291678402108,
+    "threshold_std": 0.1831241120655831,
+    "f1_mean": 0.37333333333333335,
+    "f1_std": 0.0760116950066092,
+    "mcc_mean": 0.29628415300546446,
+    "mcc_std": 0.08535739521233983,
+    "balanced_accuracy_mean": 0.6481420765027324,
+    "balanced_accuracy_std": 0.04267869760616992
+  },
+  "pooled_oof_regression": {
+    "metrics": {
+      "mae": 0.9717075993466051,
+      "rmse": 1.992701053259095,
+      "r2": 0.09049987423413564,
+      "spearman": 0.44302818598336985,
+      "spearman_p": 5.918178499543188e-08,
+      "pearson": 0.313509998763833,
+      "pearson_p": 0.00019116392072569753,
+      "n": 137
+    },
+    "ci": {
+      "spearman": {
+        "value": 0.44302818598336985,
+        "ci_low": 0.3022018873576898,
+        "ci_high": 0.5656597500730569
+      },
+      "r2": {
+        "value": 0.09049987423413564,
+        "ci_low": -0.00781049552926099,
+        "ci_high": 0.24877079700803514
+      },
+      "mae": {
+        "value": 0.9717075993466051,
+        "ci_low": 0.7252872587180852,
+        "ci_high": 1.3092327121037421
+      },
+      "rmse": {
+        "value": 1.992701053259095,
+        "ci_low": 0.9185656512804885,
+        "ci_high": 2.9574050808445476
+      },
+      "pearson": {
+        "value": 0.313509998763833,
+        "ci_low": 0.1303644960971489,
+        "ci_high": 0.5214394816710135
+      }
+    },
+    "note": "Computed on repeat 0's complete out-of-fold vector. The across-repeat mean and standard deviation of the same metric are in best_regression.*_mean / *_std.",
+    "ensemble_mean_spearman": 0.5566042607541992
+  },
+  "permutation_correlation_only": {
+    "observed": 0.44302818598336985,
+    "p_value": 0.000999000999000999,
+    "null_mean": 0.0019335113070635805,
+    "null_std": 0.0849578456043395,
+    "n_permutations": 1000
+  },
+  "permutation_full_refit": {
+    "observed_spearman": 0.44302818598336985,
+    "p_value": 0.009900990099009901,
+    "n_permutations": 100,
+    "null_mean": -0.09259869822055114,
+    "null_std": 0.10533258768960918,
+    "null_q95": 0.06741850019086292
+  },
+  "split_protocol_ablation": {
+    "clustered_spearman": 0.5357711222462038,
+    "clustered_spearman_sd": 0.053725042479387045,
+    "random_spearman": 0.5559364271765258,
+    "random_spearman_sd": 0.02469733072665771,
+    "n_repeats": 5,
+    "optimism_from_random_split": 0.02016530493032198,
+    "optimism_standard_error": 0.02644366969402641,
+    "optimism_exceeds_2se": false,
+    "clustered_mae": 0.9348131722418582,
+    "random_mae": 0.9138486451920865
+  },
+  "final_model_params": {
+    "model__C": "10.0",
+    "model__epsilon": "0.1",
+    "model__gamma": "scale"
+  },
+  "conformal": {
+    "alpha": 0.2,
+    "half_width": 1.2253923794790218,
+    "calibration_set_coverage_is_tautological": true,
+    "calibration_set_coverage": {
+      "coverage": 0.8102189781021898,
+      "mean_width": 2.4507847589580436,
+      "n": 137
+    },
+    "note": "Calibrated on repeat 0's single-model out-of-fold residuals, so the calibration predictor matches the variance of the single refitted model the intervals are applied to."
+  }
+}

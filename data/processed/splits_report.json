@@ -1,0 +1,172 @@
+{
+  "hic": {
+    "endpoint": "hic",
+    "n_train": 137,
+    "clustering": {
+      "threshold_0.7": {
+        "n_clusters": 128,
+        "n_items": 137,
+        "largest_cluster": 3,
+        "n_singletons": 121,
+        "mean_cluster_size": 1.0703125
+      },
+      "threshold_0.8": {
+        "n_clusters": 132,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 127,
+        "mean_cluster_size": 1.0378787878787878
+      },
+      "threshold_0.9": {
+        "n_clusters": 134,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 131,
+        "mean_cluster_size": 1.0223880597014925
+      }
+    },
+    "identity_summary": {
+      "mean_pairwise_cdr_identity": 0.35211092233657837,
+      "max_pairwise_cdr_identity": 1.0,
+      "n_pairs_above_0.8": 5,
+      "n_pairs_above_0.9": 3
+    },
+    "applicability_domain": {
+      "jain2024_hic": {
+        "min": 0.5199999809265137,
+        "median": 0.625,
+        "max": 0.7169811129570007,
+        "mean": 0.6210177540779114
+      },
+      "jetha2019_hic": {
+        "min": 0.4897959232330322,
+        "median": 0.5102040767669678,
+        "max": 0.5510203838348389,
+        "mean": 0.5136634707450867
+      }
+    }
+  },
+  "acsins": {
+    "endpoint": "acsins",
+    "n_train": 137,
+    "clustering": {
+      "threshold_0.7": {
+        "n_clusters": 128,
+        "n_items": 137,
+        "largest_cluster": 3,
+        "n_singletons": 121,
+        "mean_cluster_size": 1.0703125
+      },
+      "threshold_0.8": {
+        "n_clusters": 132,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 127,
+        "mean_cluster_size": 1.0378787878787878
+      },
+      "threshold_0.9": {
+        "n_clusters": 134,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 131,
+        "mean_cluster_size": 1.0223880597014925
+      }
+    },
+    "identity_summary": {
+      "mean_pairwise_cdr_identity": 0.35211092233657837,
+      "max_pairwise_cdr_identity": 1.0,
+      "n_pairs_above_0.8": 5,
+      "n_pairs_above_0.9": 3
+    },
+    "applicability_domain": {
+      "jain2024_acsins": {
+        "min": 0.5199999809265137,
+        "median": 0.625,
+        "max": 0.7169811129570007,
+        "mean": 0.6210177540779114
+      }
+    }
+  },
+  "tm": {
+    "endpoint": "tm",
+    "n_train": 137,
+    "clustering": {
+      "threshold_0.7": {
+        "n_clusters": 128,
+        "n_items": 137,
+        "largest_cluster": 3,
+        "n_singletons": 121,
+        "mean_cluster_size": 1.0703125
+      },
+      "threshold_0.8": {
+        "n_clusters": 132,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 127,
+        "mean_cluster_size": 1.0378787878787878
+      },
+      "threshold_0.9": {
+        "n_clusters": 134,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 131,
+        "mean_cluster_size": 1.0223880597014925
+      }
+    },
+    "identity_summary": {
+      "mean_pairwise_cdr_identity": 0.35211092233657837,
+      "max_pairwise_cdr_identity": 1.0,
+      "n_pairs_above_0.8": 5,
+      "n_pairs_above_0.9": 3
+    },
+    "applicability_domain": {
+      "jain2024_tm": {
+        "min": 0.5199999809265137,
+        "median": 0.625,
+        "max": 0.7169811129570007,
+        "mean": 0.6210177540779114
+      }
+    }
+  },
+  "psr": {
+    "endpoint": "psr",
+    "n_train": 137,
+    "clustering": {
+      "threshold_0.7": {
+        "n_clusters": 128,
+        "n_items": 137,
+        "largest_cluster": 3,
+        "n_singletons": 121,
+        "mean_cluster_size": 1.0703125
+      },
+      "threshold_0.8": {
+        "n_clusters": 132,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 127,
+        "mean_cluster_size": 1.0378787878787878
+      },
+      "threshold_0.9": {
+        "n_clusters": 134,
+        "n_items": 137,
+        "largest_cluster": 2,
+        "n_singletons": 131,
+        "mean_cluster_size": 1.0223880597014925
+      }
+    },
+    "identity_summary": {
+      "mean_pairwise_cdr_identity": 0.35211092233657837,
+      "max_pairwise_cdr_identity": 1.0,
+      "n_pairs_above_0.8": 5,
+      "n_pairs_above_0.9": 3
+    },
+    "applicability_domain": {
+      "jain2024_psr": {
+        "min": 0.5199999809265137,
+        "median": 0.625,
+        "max": 0.7169811129570007,
+        "mean": 0.6210177540779114
+      }
+    }
+  }
+}
