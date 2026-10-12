@@ -1,14 +1,17 @@
-# Predicting Antibody Developability from Sequence
-
-**A reproducible, sequence-only model for HIC retention time — validated on antibodies it has never seen.**
-
-<p align="left">
+<h1 align=center>Problem Statetment 47</h1>
+<h1 align=center>Predicting Antibody Developability from Sequence</h1>
+<h4 align=center>A reproducible, sequence-only model for HIC retention time — validated on antibodies it has never seen.</h4>
+<p align="center">
   <img src="https://img.shields.io/badge/python-3.11--3.13-blue" alt="python">
   <img src="https://img.shields.io/badge/dataset-FLAb-success" alt="dataset">
   <img src="https://img.shields.io/badge/PLM-AbLang2%20%7C%20ESM--2-orange" alt="plm">
-  <img src="https://img.shields.io/badge/tests-14%2F14%20passing-brightgreen" alt="tests">
+  <!-- <img src="https://img.shields.io/badge/tests-14%2F14%20passing-brightgreen" alt="tests"> -->
   <img src="https://img.shields.io/badge/CPU%20only-no%20GPU%20needed-lightgrey" alt="cpu">
 </p>
+<h3 align=center>Sudhish Gupta | BT23BTECH11023</h3>
+<h3 align=center>Instructor : Prof. G.N. Sastry</h3>
+
+
 
 Antibodies fail in development for reasons unrelated to binding: they aggregate, self-associate,
 or behave badly on a column. This project predicts **one precisely defined** developability
@@ -19,7 +22,7 @@ endpoint from heavy + light chain sequence alone, and tests it on a cohort held 
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/antibody-developability.git
+git clone https://github.com/sudhishgupta/BT5230-AIDD-MiniProject.git
 cd antibody-developability
 ```
 
